@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 /**
  * KONSENXIA multi-page static site generator (Node ESM, zero deps).
- * Reads EN content from content/en/ and locales from locales/,
- * renders Clinical Noir pages into public/ + sitemap/robots/llms/manifest.
+ * Reads EN content from ../../_content/en/konsenxia/ and locales from ../locales/,
+ * renders Clinical Noir pages into ../public/ + sitemap/robots/llms/manifest.
  * Root / = EN (x-default); /{locale}/ for the other 18 locales (ar = RTL).
  */
 import fs from 'node:fs';
@@ -11,7 +11,8 @@ import { fileURLToPath } from 'node:url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
-const CONTENT_DIR = path.join(ROOT, 'content', 'en');
+const WORKSPACE = path.resolve(ROOT, '..');
+const CONTENT_DIR = path.join(WORKSPACE, '_content', 'en', 'konsenxia');
 const LOCALES_DIR = path.join(ROOT, 'locales');
 const PUBLIC_DIR = path.join(ROOT, 'public');
 const ASSETS_SRC = __dirname;
@@ -152,6 +153,8 @@ function trimDesc(s, max = 160) {
   if (str.length <= max) return str;
   return str.slice(0, max - 1).replace(/\s+\S*$/, '') + '…';
 }
+
+function clamp(s, max) { return trimDesc(s, max); }
 
 /** Resolve a page's entry in locale bundles (pages.* keys; open-source → openSource). */
 function locPage(B, page) {
@@ -386,6 +389,12 @@ const renderers = {
           .join('')}
       </div>
       ${c.problem.audienceNote ? `<div class="notice">${esc(c.problem.audienceNote)}</div>` : ''}
+      <div class="related" aria-label="${attr(B.nav.platform)}">
+        <a href="${attr(hrefFor('/platform', loc))}">${esc(B.nav.platform)} →</a>
+        <a href="${attr(hrefFor('/metrics', loc))}">${esc(B.nav.metrics)} →</a>
+        <a href="${attr(hrefFor('/community', loc))}">${esc(B.nav.community)} →</a>
+        <a href="${attr(hrefFor('/open-source', loc))}">${esc(B.nav.openSource)} →</a>
+      </div>
     </section>
 
     <section class="wrap reveal">
@@ -676,8 +685,9 @@ const renderers = {
   },
 
   privacy(c, B, loc) {
+    const disclaimer = `<div class="notice"><strong>${esc(B.struct.disclaimer)}:</strong> KONSENXIA is decision support for licensed clinicians. This site is product information only — not medical advice, diagnosis, or treatment, and not a medical device claim unless a sourced regulatory clearance is published.</div>`;
     return `${sectionHead(c, B, PAGE_BY_ID.privacy, loc)}
-    <section class="wrap reveal"><div class="prose">${proseBlocks(c.sections)}</div>${relatedLinks(c.related, B, loc)}</section>`;
+    <section class="wrap reveal"><div class="prose">${proseBlocks(c.sections)}</div>${disclaimer}${relatedLinks(c.related, B, loc)}</section>`;
   },
 
   terms(c, B, loc) {
@@ -703,8 +713,9 @@ const renderers = {
   },
 
   security(c, B, loc) {
+    const disclaimer = `<div class="notice"><strong>${esc(B.struct.disclaimer)}:</strong> Architecture and “designed for” statements are documentation goals — not certifications, clearances, or medical device claims. Status labels are architecture or roadmap unless a lab source exists.</div>`;
     return `${sectionHead(c, B, PAGE_BY_ID.security, loc)}
-    <section class="wrap reveal"><div class="prose">${proseBlocks(c.sections)}</div>${relatedLinks(c.related, B, loc)}</section>`;
+    <section class="wrap reveal"><div class="prose">${proseBlocks(c.sections)}</div>${disclaimer}${relatedLinks(c.related, B, loc)}</section>`;
   },
 
   licenses(c, B, loc) {
@@ -760,12 +771,24 @@ function renderHead({ page, loc, locMeta, B, content }) {
   };
   const ld = [org];
 
+  if (page.id === 'home') {
+    ld.push({
+      '@context': 'https://schema.org',
+      '@type': 'WebSite',
+      name: BRAND,
+      url: ORIGIN,
+      inLanguage: loc,
+      description: trimDesc(B.pages.home.description, 300),
+      publisher: { '@type': 'Organization', name: BRAND, url: ORIGIN }
+    });
+  }
+
   if (page.id === 'home' || page.id === 'platform') {
     ld.push({
       '@context': 'https://schema.org',
       '@type': 'SoftwareApplication',
       name: BRAND,
-      applicationCategory: 'HealthApplication',
+      applicationCategory: 'HealthAndFitness',
       genre: 'Medical software',
       operatingSystem: 'Web',
       url: ORIGIN,
@@ -828,6 +851,7 @@ function renderHead({ page, loc, locMeta, B, content }) {
 <meta name="description" content="${attr(desc)}">
 <meta name="theme-color" content="#060a14">
 <meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="googlebot" content="index,follow,max-image-preview:large">
 <link rel="canonical" href="${attr(canonical)}">
 ${xDefault}
 ${hreflang}
@@ -841,16 +865,21 @@ ${hreflang}
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="${attr(title)}">
 <meta name="twitter:description" content="${attr(desc)}">
+<meta name="twitter:image" content="${attr(ORIGIN + '/assets/icon.svg')}">
 <link rel="icon" href="/assets/icon.svg" type="image/svg+xml">
 <link rel="manifest" href="/manifest.webmanifest">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/site.css">
+<style>:root{--void:#060a14;--base:#0a0f1e;--ink:#f0f4ff}body{font-family:'Space Grotesk',system-ui,sans-serif;background:var(--void);color:var(--ink);margin:0}</style>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet"></noscript>
+<link rel="stylesheet" href="/assets/site.css" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="/assets/site.css"></noscript>
 <script type="application/ld+json">${JSON.stringify(ld)}</script>
 <script src="/assets/site.js" defer></script>
 </head>
 <body>
+<a class="skip-link" href="#main">Skip to content</a>
 <div class="progress" aria-hidden="true"></div>
 <div class="grid-bg" aria-hidden="true"></div>
 <div class="pulse-bg" aria-hidden="true"></div>`;
@@ -931,7 +960,7 @@ function renderPage(page, loc, locMeta, B, content) {
   const renderer = renderers[page.id];
   if (!renderer) throw new Error(`No renderer for page ${page.id}`);
   const body = renderer(content, B, loc === undefined ? 'en' : loc);
-  return renderHead({ page, loc, locMeta, B, content }) + renderNav({ page, loc, B }) + `<main>${body}</main>` + renderFooter({ loc, B });
+  return renderHead({ page, loc, locMeta, B, content }) + renderNav({ page, loc, B }) + `<main id="main">${body}</main>` + renderFooter({ loc, B });
 }
 
 /* -------------------------------------------------------- static assets */
@@ -979,6 +1008,12 @@ function buildLlms(B, content) {
     '- The landing site code is MIT OR Apache-2.0; the clinical application, models, and datasets are proprietary under agreement.',
     '- Never submit patient data through website forms or GitHub issues.',
     '',
+    '## License',
+    '',
+    `Landing site source is dual-licensed **MIT OR Apache-2.0**. The clinical application, models, and datasets are proprietary and provided under commercial agreement only.`,
+    '',
+    `Repository: ${GH.url}`,
+    '',
     '## Pages',
     '',
     ...PAGES.map((p) => {
@@ -1020,7 +1055,7 @@ function collectText(obj, out = [], key = '') {
 function buildLlmsFull(enBundle, content) {
   const parts = [
     `${BRAND} — full site content (EN, source of truth)`,
-    `Source: content/en/ · Generated ${new Date().toISOString().slice(0, 10)}`,
+    `Source: _content/en/konsenxia/ · Generated ${new Date().toISOString().slice(0, 10)}`,
     '',
     'HEALTHCARE CLAIM BOUNDARIES: not medical advice; not certification claims; status labels are architecture/roadmap unless a lab source exists; "designed for" ≠ "certified".',
     ''
@@ -1062,8 +1097,10 @@ function build404(B) {
 <title>404 — ${BRAND}</title>
 <meta name="robots" content="noindex">
 <link rel="icon" href="/assets/icon.svg" type="image/svg+xml">
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=IBM+Plex+Mono:wght@400&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/site.css">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=IBM+Plex+Mono:wght@400&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=IBM+Plex+Mono:wght@400&display=swap" rel="stylesheet"></noscript>
+<link rel="stylesheet" href="/assets/site.css" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="/assets/site.css"></noscript>
 <style>body{display:flex;min-height:100vh;align-items:center;justify-content:center;text-align:center}.nf{position:relative;z-index:1;padding:2rem}.nf h1{font-size:clamp(3rem,10vw,6rem);background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}.nf p{color:var(--dim);margin:.8rem 0 1.6rem}</style>
 </head>
 <body>
