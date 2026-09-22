@@ -1,0 +1,180 @@
+{
+  "nav": {
+    "home": "Ana sayfa",
+    "platform": "Platform",
+    "metrics": "Metrikler",
+    "openSource": "Açık kaynak",
+    "community": "Topluluk",
+    "company": "Şirket",
+    "contact": "İletişim",
+    "demo": "Demo alın",
+    "github": "GitHub",
+    "menu": "Menü",
+    "close": "Kapat",
+    "language": "Dil"
+  },
+  "hero": {
+    "eyebrow": "Sağlık yapay zekâsı · Klinisyen iş birliği",
+    "title": "Hekimlerin etrafında değil,",
+    "titleAccent": "hekimlerle birlikte çalışan klinik yapay zekâ.",
+    "subtitle": "KONSENXIA; tıbbi konsültasyon, diferansiyel tanı desteği ve hekim–hekim iş birliği için bir asistandır — KVKK, GDPR ve HIPAA uyumlu ele alma hedefli anonim öğrenme hattıyla. Mimarisi önce, yol haritası dürüst.",
+    "primaryCta": "Demo alın",
+    "secondaryCta": "GitHub'da görüntüle"
+  },
+  "footer": {
+    "description": "Klinisyen iş birliği, yapay zekâ destekli konsültasyon ve anonim öğrenme için sağlık yapay zekâsı — KVKK ve GDPR duruşu için tasarlandı.",
+    "columns": {
+      "product": "Ürün",
+      "company": "Şirket",
+      "legal": "Yasal",
+      "community": "Topluluk"
+    },
+    "links": {
+      "platform": "Platform",
+      "metrics": "Metrik kaydı",
+      "openSource": "Açık kaynak",
+      "getDemo": "Demo alın",
+      "about": "Hakkımızda",
+      "contact": "İletişim",
+      "press": "Basın & yatırımcılar",
+      "privacy": "Gizlilik politikası (KVKK / GDPR)",
+      "terms": "Kullanım koşulları",
+      "cookies": "Çerez politikası",
+      "security": "Güvenlik",
+      "licenses": "Lisanslar",
+      "repository": "Depo",
+      "issues": "Sorunlar",
+      "releases": "Sürümler",
+      "communityPage": "Topluluk sayfası"
+    },
+    "tagline": "İşe yararsa depoyu yıldızlayın. Sürümleri takip edin.",
+    "legalLine": "© {year} KONSENXIA. Tüm hakları saklıdır. Mimari ve yol haritası etiketleri belge durumunu yansıtır (kaynaklar: docs/healthcare_ai_architecture.md, docs/legal/*, FAZ_C temaları; 2026-06), sertifikaları değil."
+  },
+  "form": {
+    "title": "Kurumunuzu anlatın",
+    "name": "Ad Soyad",
+    "namePh": "Adınız",
+    "email": "E-posta",
+    "emailPh": "ad@sirketiniz.com",
+    "companyLabel": "Kurum / klinik",
+    "companyPh": "Kurum adı",
+    "phone": "Telefon",
+    "phonePh": "+90 …",
+    "interest": "Talep türü",
+    "select": "Seçiniz…",
+    "optDemo": "Demo / test et",
+    "optPilot": "Klinik pilot",
+    "optEnterprise": "Kurumsal hizmet talebi",
+    "optInvestor": "Yatırımcı görüşmesi",
+    "optPartner": "Ortaklık / iş birliği",
+    "optOther": "Diğer",
+    "message": "Mesaj",
+    "messagePh": "İhtiyacınızı veya sorunuzu kısaca yazın…",
+    "submit": "Gönder",
+    "optional": "(isteğe bağlı)",
+    "errRequired": "Lütfen zorunlu alanları doldurun.",
+    "errEmail": "Geçerli bir e-posta adresi girin.",
+    "errGeneric": "Bir hata oluştu. Lütfen tekrar deneyin.",
+    "success": "Teşekkürler! Talebiniz alındı — en kısa sürede dönüş yapacağız.",
+    "note": "Form verileri yalnızca talebinize dönüş için işlenir. KVKK / GDPR uyumlu saklama; üçüncü taraflarla pazarlama amacıyla paylaşılmaz.",
+    "direct": "Doğrudan:",
+    "routing": "Mesajlarınız alan adı üzerinden yönlendirilir."
+  },
+  "cta": {
+    "viewGithub": "GitHub'da görüntüle",
+    "getDemo": "Demo alın",
+    "readMetrics": "Metrik kaydını oku",
+    "star": "Depoyu yıldızla",
+    "watch": "Sürümleri takip et",
+    "contact": "İletişim",
+    "licenses": "Lisanslar"
+  },
+  "pages": {
+    "home": {
+      "title": "KONSENXIA — Klinisyen iş birliği için sağlık yapay zekâsı",
+      "description": "KONSENXIA; tıbbi konsültasyon, diferansiyel tanı desteği ve hekim–hekim iş birliği için klinik yapay zekâ — mimarisi önce, yol haritası dürüst."
+    },
+    "platform": {
+      "title": "Sekiz modül, tek klinik yüzey",
+      "description": "Konsültasyon, iş birliği, öğrenme ve kayıtlar — laboratuvar kaynağı olmadıkça her modül mimari veya yol haritası etiketlidir.",
+      "heading": "Sekiz modül, tek klinik yüzey"
+    },
+    "metrics": {
+      "title": "Nitel ve mimari kayıtlar — uydurulmuş sayı yok",
+      "description": "KONSENXIA henüz laboratuvar sayısı yayımlamıyor. Kayıtlar; kaynak, tarih ve durumla birlikte mimari veya yol haritası ifadeleridir.",
+      "heading": "Nitel ve mimari kayıtlar — uydurulmuş sayı yok"
+    },
+    "community": {
+      "title": "Açık şekilde birlikte geliştirin",
+      "description": "Yerelleştirmeler, erişilebilirlik, tasarım ve dokümantasyon katkıları kod gibi incelenir. Yıldız, takip, çatallama, sorun, PR.",
+      "heading": "Açık şekilde birlikte geliştirin"
+    },
+    "openSource": {
+      "title": "Açık landing, klinik ürün",
+      "description": "Landing sitesi çift lisanslı MIT / Apache-2.0. Klinik uygulama, modeller ve veriler anlaşma kapsamında gizli kalır.",
+      "heading": "Açık landing, klinik ürün"
+    },
+    "company": {
+      "title": "Denetlenebilir klinik yapay zekâ inşa ediyoruz",
+      "description": "Kurumsal profil, basın, yatırımcı ve geliştirici görünümleri — dürüst durum etiketleri ve kaynaklı metriklerle.",
+      "heading": "Denetlenebilir klinik yapay zekâ inşa ediyoruz"
+    },
+    "contact": {
+      "title": "Klinik görüşmeyi başlatın",
+      "description": "Demo, pilot, yatırımcı ve ortaklık hatları. Yanıtlar isimli bir kişiden, genellikle iki iş günü içinde gelir.",
+      "heading": "Klinik görüşmeyi başlatın"
+    },
+    "privacy": {
+      "title": "Gizlilik politikası",
+      "description": "konsenxia.com kişisel verileri nasıl işler — KVKK ve GDPR okuyucuları için yazılmıştır.",
+      "heading": "Gizlilik politikası"
+    },
+    "terms": {
+      "title": "Kullanım koşulları",
+      "description": "konsenxia.com kullanım kuralları, tıbbi tavsiye sınırı ve durum etiketi tanımları.",
+      "heading": "Kullanım koşulları"
+    },
+    "cookies": {
+      "title": "Çerez politikası",
+      "description": "Varsayılan olarak yalnızca gerekli çerezler. Reklam çerezi yok, siteler arası takip yok, veri satışı yok.",
+      "heading": "Çerez politikası"
+    },
+    "security": {
+      "title": "Güvenlik ve sorumlu bildirim",
+      "description": "Siteyi nasıl güvendiğimiz, açık raporlamanın yolu ve klinik içerik sınırları.",
+      "heading": "Güvenlik ve sorumlu bildirim"
+    },
+    "licenses": {
+      "title": "Lisanslar",
+      "description": "Neyin açık olduğu, hangi lisansla ve neyin tescilli kaldığı.",
+      "heading": "Lisanslar"
+    }
+  },
+  "faq": [
+    {
+      "q": "KONSENXIA sertifikalı klinik yazılım mı?",
+      "a": "Bu sitede hiçbir sertifika iddia edilmez. İfadeler mimari veya yol haritası olarak etiketlenir; \"tasarlandı\" ifadesi bir sertifika değildir ve düzenleyici onayı öne sürülmez."
+    },
+    {
+      "q": "KONSENXIA tıbbi tavsiye verir mi?",
+      "a": "Hayır. Sitedeki içerik profesyonel değerlendirme için ürün bilgisidir. Asistan karar desteğidir — her klinik kararı yetkili hekim verir."
+    },
+    {
+      "q": "Burada açık kaynak olan nedir?",
+      "a": "Landing sitesi kodu MIT OR Apache-2.0 çift lisanslıdır. Klinik uygulama, modeller, istemler, değerlendirme araçları ve veri kümeleri tescillidir ve ticari anlaşmayla sunulur."
+    },
+    {
+      "q": "KONSENXIA hasta verisine nasıl yaklaşır?",
+      "a": "Ürünün anonimleştirme hattı, öğrenme sinyallerini doğrudan tanımlayıcılardan ayırmak için tasarlandı. KVKK + GDPR, mimari ve hukuki belgelerde yer alan tasarım hedefleridir — sertifika değildir."
+    },
+    {
+      "q": "Platformu nasıl değerlendirebilirim?",
+      "a": "İletişim formundan demo veya pilot planlayın. Mimari şemasını, anonimleştirme tasarımını ve hukuki belgeleri — durum etiketleriyle birlikte — birlikte inceliyoruz."
+    }
+  ],
+  "notFound": {
+    "title": "Sayfa bulunamadı",
+    "body": "Aradığınız sayfa yok veya taşınmış.",
+    "home": "Ana sayfaya dön"
+  }
+}

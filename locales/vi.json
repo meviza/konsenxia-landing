@@ -1,0 +1,180 @@
+{
+  "nav": {
+    "home": "Trang chủ",
+    "platform": "Nền tảng",
+    "metrics": "Chỉ số",
+    "openSource": "Mã nguồn mở",
+    "community": "Cộng đồng",
+    "company": "Công ty",
+    "contact": "Liên hệ",
+    "demo": "Yêu cầu demo",
+    "github": "GitHub",
+    "menu": "Menu",
+    "close": "Đóng",
+    "language": "Ngôn ngữ"
+  },
+  "hero": {
+    "eyebrow": "AI y tế · Cộng tác giữa bác sĩ",
+    "title": "AI lâm sàng làm việc cùng bác sĩ,",
+    "titleAccent": "không thay thế họ.",
+    "subtitle": "KONSENXIA là trợ lý cho tư vấn y khoa, hỗ trợ chẩn đoán phân biệt và hợp tác bác sĩ–bác sĩ — với đường ẩn danh hóa dữ liệu học tập thiết kế theo KVKK, GDPR và cách xử lý tương thích HIPAA. Kiến trúc trước, lộ trình trung thực.",
+    "primaryCta": "Yêu cầu demo",
+    "secondaryCta": "Xem trên GitHub"
+  },
+  "footer": {
+    "description": "AI y tế cho cộng tác lâm sàng, tư vấn có hỗ trợ AI và học tập ẩn danh — thiết kế theo định hướng KVKK và GDPR.",
+    "columns": {
+      "product": "Sản phẩm",
+      "company": "Công ty",
+      "legal": "Pháp lý",
+      "community": "Cộng đồng"
+    },
+    "links": {
+      "platform": "Nền tảng",
+      "metrics": "Sổ chỉ số",
+      "openSource": "Mã nguồn mở",
+      "getDemo": "Yêu cầu demo",
+      "about": "Về chúng tôi",
+      "contact": "Liên hệ",
+      "press": "Báo chí & nhà đầu tư",
+      "privacy": "Chính sách bảo mật (KVKK / GDPR)",
+      "terms": "Điều khoản sử dụng",
+      "cookies": "Chính sách cookie",
+      "security": "Bảo mật",
+      "licenses": "Giấy phép",
+      "repository": "Kho lưu trữ",
+      "issues": "Issues",
+      "releases": "Bản phát hành",
+      "communityPage": "Trang cộng đồng"
+    },
+    "tagline": "Star kho nếu thấy hữu ích. Theo dõi bản phát hành.",
+    "legalLine": "© {year} KONSENXIA. Bảo lưu mọi quyền. Nhãn kiến trúc và lộ trình phản ánh trạng thái tài liệu (nguồn: docs/healthcare_ai_architecture.md, docs/legal/*, chủ đề FAZ_C; 2026-06), không phải chứng nhận."
+  },
+  "form": {
+    "title": "Chia sẻ bối cảnh của bạn",
+    "name": "Họ và tên",
+    "namePh": "Tên của bạn",
+    "email": "Email",
+    "emailPh": "you@clinic.vn",
+    "companyLabel": "Tổ chức / phòng khám",
+    "companyPh": "Tên tổ chức",
+    "phone": "Điện thoại",
+    "phonePh": "+84 …",
+    "interest": "Loại yêu cầu",
+    "select": "Chọn…",
+    "optDemo": "Demo / dùng thử",
+    "optPilot": "Thí điểm lâm sàng",
+    "optEnterprise": "Yêu cầu dịch vụ doanh nghiệp",
+    "optInvestor": "Buổi gặp nhà đầu tư",
+    "optPartner": "Đối tác / hợp tác",
+    "optOther": "Khác",
+    "message": "Tin nhắn",
+    "messagePh": "Mô tả ngắn nhu cầu hoặc câu hỏi của bạn…",
+    "submit": "Gửi",
+    "optional": "(không bắt buộc)",
+    "errRequired": "Vui lòng điền các trường bắt buộc.",
+    "errEmail": "Vui lòng nhập địa chỉ email hợp lệ.",
+    "errGeneric": "Đã có lỗi xảy ra. Vui lòng thử lại.",
+    "success": "Cảm ơn! Yêu cầu đã được nhận — chúng tôi sẽ phản hồi sớm.",
+    "note": "Dữ liệu biểu mẫu chỉ được xử lý để phản hồi yêu cầu của bạn. Lưu trữ theo KVKK/GDPR; không bao giờ chia sẻ cho bên thứ ba nhằm tiếp thị.",
+    "direct": "Trực tiếp:",
+    "routing": "Tin nhắn đi qua hạ tầng của chính tên miền."
+  },
+  "cta": {
+    "viewGithub": "Xem trên GitHub",
+    "getDemo": "Yêu cầu demo",
+    "readMetrics": "Đọc sổ chỉ số",
+    "star": "Star kho",
+    "watch": "Theo dõi bản phát hành",
+    "contact": "Liên hệ",
+    "licenses": "Giấy phép"
+  },
+  "pages": {
+    "home": {
+      "title": "KONSENXIA — AI y tế cho cộng tác giữa bác sĩ",
+      "description": "KONSENXIA là AI lâm sàng cho tư vấn y khoa, hỗ trợ chẩn đoán phân biệt và hợp tác bác sĩ–bác sĩ — kiến trúc trước, lộ trình trung thực."
+    },
+    "platform": {
+      "title": "Tám mô-đun, một bề mặt lâm sàng",
+      "description": "Tư vấn, hợp tác, học tập và hồ sơ — mỗi mô-đun được gắn nhãn kiến trúc hoặc lộ trình, trừ khi nguồn phòng thí nghiệm nói khác.",
+      "heading": "Tám mô-đun, một bề mặt lâm sàng"
+    },
+    "metrics": {
+      "title": "Hồ sơ định tính và kiến trúc — không có số liệu bịa",
+      "description": "KONSENXIA chưa công bố số liệu phòng thí nghiệm. Các mục là phát biểu kiến trúc hoặc lộ trình kèm nguồn, ngày và trạng thái.",
+      "heading": "Hồ sơ định tính và kiến trúc — không có số liệu bịa"
+    },
+    "community": {
+      "title": "Phát triển cởi mở cùng chúng tôi",
+      "description": "Ngôn ngữ, khả năng tiếp cận, thiết kế và tài liệu được duyệt như code. Star, watch, fork, issue, PR.",
+      "heading": "Phát triển cởi mở cùng chúng tôi"
+    },
+    "openSource": {
+      "title": "Trang mở, sản phẩm lâm sàng",
+      "description": "Trang giới thiệu kép giấy phép MIT / Apache-2.0. Ứng dụng lâm sàng, mô hình và dữ liệu riêng tư theo thỏa thuận.",
+      "heading": "Trang mở, sản phẩm lâm sàng"
+    },
+    "company": {
+      "title": "Xây dựng AI lâm sàng có thể kiểm toán",
+      "description": "Hồ sơ doanh nghiệp, nhà đầu tư, báo chí và nhà phát triển — với nhãn trạng thái trung thực và chỉ số có nguồn.",
+      "heading": "Xây dựng AI lâm sàng có thể kiểm toán"
+    },
+    "contact": {
+      "title": "Bắt đầu cuộc trò chuyện lâm sàng",
+      "description": "Các tuyến demo, thí điểm, nhà đầu tư và đối tác. Phản hồi đến từ người có tên, thường trong hai ngày làm việc.",
+      "heading": "Bắt đầu cuộc trò chuyện lâm sàng"
+    },
+    "privacy": {
+      "title": "Chính sách bảo mật",
+      "description": "Cách konsenxia.com xử lý dữ liệu cá nhân — viết cho độc giả KVKK và GDPR.",
+      "heading": "Chính sách bảo mật"
+    },
+    "terms": {
+      "title": "Điều khoản sử dụng",
+      "description": "Quy tắc dùng konsenxia.com, ranh giới không phải lời khuyên y khoa và định nghĩa nhãn trạng thái.",
+      "heading": "Điều khoản sử dụng"
+    },
+    "cookies": {
+      "title": "Chính sách cookie",
+      "description": "Mặc định chỉ cookie thiết yếu. Không cookie quảng cáo, không theo dõi liên site, không bán dữ liệu.",
+      "heading": "Chính sách cookie"
+    },
+    "security": {
+      "title": "Bảo mật và tiết lộ có trách nhiệm",
+      "description": "Cách chúng tôi bảo vệ trang này, cách báo lỗ hổng và ranh giới nội dung lâm sàng.",
+      "heading": "Bảo mật và tiết lộ có trách nhiệm"
+    },
+    "licenses": {
+      "title": "Giấy phép",
+      "description": "Cái gì mở, dưới giấy phép nào, và cái gì vẫn độc quyền.",
+      "heading": "Giấy phép"
+    }
+  },
+  "faq": [
+    {
+      "q": "KONSENXIA có phải phần mềm lâm sàng được chứng nhận không?",
+      "a": "Trang này không tuyên bố bất kỳ chứng nhận nào. Các phát biểu được gắn nhãn kiến trúc hoặc lộ trình; \"thiết kế cho\" ẩn danh hóa không phải chứng nhận, và không tuyên bố chấp thuận quản lý."
+    },
+    {
+      "q": "KONSENXIA có đưa lời khuyên y khoa không?",
+      "a": "Không. Nội dung trang này là thông tin sản phẩm để đánh giá chuyên nghiệp. Trợ lý là hỗ trợ quyết định — mọi quyết định lâm sàng do bác sĩ có giấy phép đưa ra."
+    },
+    {
+      "q": "Cái gì mở nguồn ở đây?",
+      "a": "Mã trang được cấp phép kép MIT OR Apache-2.0. Ứng dụng lâm sàng, mô hình, prompt, bộ đánh giá và tập dữ liệu là độc quyền theo thỏa thuận thương mại."
+    },
+    {
+      "q": "KONSENXIA tiếp cận dữ liệu bệnh nhân thế nào?",
+      "a": "Đường ẩn danh hóa của sản phẩm được thiết kế để tách tín hiệu học tập khỏi định danh trực tiếp. KVKK + GDPR là mục tiêu thiết kế ghi trong kiến trúc và tài liệu pháp lý — không phải chứng nhận."
+    },
+    {
+      "q": "Làm sao tôi đánh giá được nền tảng?",
+      "a": "Đặt demo hoặc thí điểm qua biểu mẫu liên hệ. Chúng tôi đi qua sơ đồ kiến trúc, thiết kế ẩn danh hóa và tài liệu pháp lý — nhãn trạng thái giữ nguyên."
+    }
+  ],
+  "notFound": {
+    "title": "Không tìm thấy trang",
+    "body": "Trang bạn tìm không tồn tại hoặc đã di chuyển.",
+    "home": "Về trang chủ"
+  }
+}

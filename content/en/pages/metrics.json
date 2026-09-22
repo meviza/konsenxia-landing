@@ -1,0 +1,82 @@
+{
+  "site": "konsenxia",
+  "page": "metrics",
+  "locale": "en",
+  "policyRef": "../METRICS_POLICY.md",
+  "header": {
+    "eyebrow": "Metrics registry",
+    "headline": "Qualitative and architecture records — no invented numbers",
+    "subhead": "KONSENXIA publishes no lab numbers yet. Entries here are architecture or roadmap statements with source, date, and status attached."
+  },
+  "metrics": [
+    {
+      "id": "interface-languages",
+      "value": "TR / EN / DE",
+      "label": "Planned interface language set",
+      "methodology": "Declared product scope from repository planning documentation; not a shipped-languages count.",
+      "source": "repo docs/healthcare_ai_architecture.md",
+      "date": "2026-06",
+      "status": "roadmap",
+      "notes": "Planned set. Turkish and English availability order to be confirmed at implementation."
+    },
+    {
+      "id": "compliance-posture",
+      "value": "KVKK + GDPR design goals",
+      "label": "Compliance posture",
+      "methodology": "Requirements and principles recorded in legal documentation and mapped to architecture decisions; no external certification asserted.",
+      "source": "docs/legal/*",
+      "date": "2026-06",
+      "status": "architecture",
+      "notes": "Design goals, not certificates. HIPAA-aligned handling is a target posture for qualifying deployments."
+    },
+    {
+      "id": "anonymity-pipeline",
+      "value": "Designed for anonymization",
+      "label": "Anonymity pipeline",
+      "methodology": "Pipeline architecture separates direct identifiers from learning signals by design; no audit or certification performed to date.",
+      "source": "repo docs/healthcare_ai_architecture.md",
+      "date": "2026-06",
+      "status": "architecture",
+      "notes": "\"Designed for\" — not \"certified\". Any future certification will be published with auditor, scope, and date."
+    },
+    {
+      "id": "feature-modules",
+      "value": "8",
+      "label": "Defined feature modules",
+      "methodology": "Enumeration of modules specified in the architecture document: AI medical consultation, doctor-to-doctor, anonymized learning, differential diagnosis, emergency consult, knowledge hub, drug analytics, medical files.",
+      "source": "repo docs/healthcare_ai_architecture.md",
+      "date": "2026-06",
+      "status": "architecture",
+      "notes": "Defined ≠ shipped. Per-module delivery status is tracked as architecture or roadmap on the platform page."
+    },
+    {
+      "id": "expert-review-themes",
+      "value": "FAZ_C",
+      "label": "Expert review theme set",
+      "methodology": "Themes captured from FAZ_C expert review sessions and carried into the roadmap as safety, explainability, and auditability work items.",
+      "source": "FAZ_C expert review themes",
+      "date": "2026-06",
+      "status": "roadmap",
+      "notes": "Themes inform prioritisation; they are not measurable outcomes."
+    },
+    {
+      "id": "clinical-lab-metrics",
+      "value": "pending",
+      "label": "Clinical performance metrics",
+      "methodology": "No lab measurement published yet. Will require defined cohort, endpoint, and environment before any figure appears here.",
+      "source": "—",
+      "date": "—",
+      "status": "roadmap",
+      "notes": "Placeholder status record. Publishing a number without methodology + source + date is forbidden by METRICS_POLICY.md."
+    }
+  ],
+  "investorNarrative": {
+    "note": "Narrative only. No figures beyond the registry above; anything unmeasured is described qualitatively.",
+    "problem": "Clinical decisions still rely on fragmented references and ad-hoc peer consultation, while institutions hesitate to adopt AI whose data path they cannot inspect. The market needs assistance that is clinically useful and legally legible at the same time.",
+    "wedge": "Clinic- and hospital-level deployments where clinician collaboration and a designed anonymization pipeline answer procurement's first question: where does patient data go? KVKK + GDPR design goals open Turkish and EU conversations before any certification round.",
+    "moat": "Architecture and legal documentation treated as product artifacts: healthcare_ai_architecture.md, docs/legal/*, and expert-review themes form a coherent, auditable design record. Clinician-in-the-loop workflows earn the trust that pure automation struggles to obtain in clinical settings.",
+    "license": "Landing site and public components are dual-licensed MIT / Apache-2.0 (see /open-source). The clinical application, models, and datasets remain proprietary and are licensed under agreement.",
+    "community": "The open landing repository is the public surface: locales, documentation, accessibility, and design contributions are reviewed in the open. Star the repo if it helps; watch for releases; open an issue or ship a branch — we review."
+  },
+  "disclaimer": "All entries are architecture or roadmap statements sourced from repository documentation as of 2026-06. Nothing on this page is a clinical performance claim, a certification, or a regulatory clearance."
+}

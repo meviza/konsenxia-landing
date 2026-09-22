@@ -1,0 +1,180 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "platform": "Plateforme",
+    "metrics": "Métriques",
+    "openSource": "Open source",
+    "community": "Communauté",
+    "company": "Entreprise",
+    "contact": "Contact",
+    "demo": "Demander une démo",
+    "github": "GitHub",
+    "menu": "Menu",
+    "close": "Fermer",
+    "language": "Langue"
+  },
+  "hero": {
+    "eyebrow": "IA de santé · Collaboration clinicienne",
+    "title": "Une IA clinique qui travaille avec les médecins,",
+    "titleAccent": "pas à leur place.",
+    "subtitle": "KONSENXIA est un assistant pour la consultation médicale, le soutien au diagnostic différentiel et la collaboration de médecin à médecin — avec un pipeline d'apprentissage anonymisé conçu pour la KVKK, le GDPR et une gestion alignée HIPAA. L'architecture d'abord, une feuille de route honnête.",
+    "primaryCta": "Demander une démo",
+    "secondaryCta": "Voir sur GitHub"
+  },
+  "footer": {
+    "description": "IA de santé pour la collaboration clinicienne, la consultation assistée par IA et l'apprentissage anonymisé — conçue pour la posture KVKK et GDPR.",
+    "columns": {
+      "product": "Produit",
+      "company": "Entreprise",
+      "legal": "Mentions légales",
+      "community": "Communauté"
+    },
+    "links": {
+      "platform": "Plateforme",
+      "metrics": "Registre des métriques",
+      "openSource": "Open source",
+      "getDemo": "Demander une démo",
+      "about": "À propos",
+      "contact": "Contact",
+      "press": "Presse & investisseurs",
+      "privacy": "Politique de confidentialité (KVKK / GDPR)",
+      "terms": "Conditions d'utilisation",
+      "cookies": "Politique de cookies",
+      "security": "Sécurité",
+      "licenses": "Licences",
+      "repository": "Dépôt",
+      "issues": "Issues",
+      "releases": "Versions",
+      "communityPage": "Page communauté"
+    },
+    "tagline": "Mettez une étoile au dépôt si utile. Suivez les versions.",
+    "legalLine": "© {year} KONSENXIA. Tous droits réservés. Les étiquettes d'architecture et de feuille de route reflètent l'état de la documentation (sources : docs/healthcare_ai_architecture.md, docs/legal/*, thèmes FAZ_C ; 2026-06), pas des certifications."
+  },
+  "form": {
+    "title": "Parlez-nous de votre contexte",
+    "name": "Nom complet",
+    "namePh": "Votre nom",
+    "email": "E-mail",
+    "emailPh": "vous@clinique.fr",
+    "companyLabel": "Organisation / clinique",
+    "companyPh": "Nom de l'organisation",
+    "phone": "Téléphone",
+    "phonePh": "+33 …",
+    "interest": "Type de demande",
+    "select": "Choisir…",
+    "optDemo": "Démo / essai",
+    "optPilot": "Pilote clinique",
+    "optEnterprise": "Demande de service d'entreprise",
+    "optInvestor": "Réunion investisseur",
+    "optPartner": "Partenariat / collaboration",
+    "optOther": "Autre",
+    "message": "Message",
+    "messagePh": "Décrivez brièvement votre besoin ou votre question…",
+    "submit": "Envoyer",
+    "optional": "(facultatif)",
+    "errRequired": "Veuillez remplir les champs obligatoires.",
+    "errEmail": "Veuillez saisir une adresse e-mail valide.",
+    "errGeneric": "Une erreur est survenue. Veuillez réessayer.",
+    "success": "Merci ! Votre demande a bien été reçue — nous vous répondrons rapidement.",
+    "note": "Les données du formulaire ne sont traitées que pour répondre à votre demande. Conservation alignée KVKK/GDPR ; jamais partagées à des fins marketing.",
+    "direct": "Direct :",
+    "routing": "Les messages transitent par l'infrastructure du domaine lui-même."
+  },
+  "cta": {
+    "viewGithub": "Voir sur GitHub",
+    "getDemo": "Demander une démo",
+    "readMetrics": "Lire le registre des métriques",
+    "star": "Mettre une étoile",
+    "watch": "Suivre les versions",
+    "contact": "Contact",
+    "licenses": "Licences"
+  },
+  "pages": {
+    "home": {
+      "title": "KONSENXIA — IA de santé pour la collaboration clinicienne",
+      "description": "KONSENXIA est une IA clinique pour la consultation médicale, le diagnostic différentiel et la collaboration de médecin à médecin — architecture d'abord, feuille de route honnête."
+    },
+    "platform": {
+      "title": "Huit modules, une surface clinique",
+      "description": "Consultation, collaboration, apprentissage et dossiers — chaque module étiqueté architecture ou feuille de route sauf mention d'une source de laboratoire.",
+      "heading": "Huit modules, une surface clinique"
+    },
+    "metrics": {
+      "title": "Registres qualitatifs et d'architecture — aucun chiffre inventé",
+      "description": "KONSENXIA ne publie encore aucun chiffre de laboratoire. Les entrées sont des affirmations d'architecture ou de feuille de route avec source, date et statut.",
+      "heading": "Registres qualitatifs et d'architecture — aucun chiffre inventé"
+    },
+    "community": {
+      "title": "Développez avec nous en open source",
+      "description": "Locales, accessibilité, design et documentation sont relus comme du code. Étoile, watch, fork, issue, PR.",
+      "heading": "Développez avec nous en open source"
+    },
+    "openSource": {
+      "title": "Site ouvert, produit clinique",
+      "description": "Site sous double licence MIT / Apache-2.0. L'application clinique, les modèles et les données restent privés sous accord.",
+      "heading": "Site ouvert, produit clinique"
+    },
+    "company": {
+      "title": "Construire une IA clinique auditable",
+      "description": "Profil d'entreprise, presse, investisseurs et développeurs — avec des étiquettes de statut honnêtes et des métriques sourcées.",
+      "heading": "Construire une IA clinique auditable"
+    },
+    "contact": {
+      "title": "Lancez la conversation clinique",
+      "description": "Circuits démo, pilote, investisseur et partenaire. Les réponses viennent d'une personne nommée, généralement sous deux jours ouvrés.",
+      "heading": "Lancez la conversation clinique"
+    },
+    "privacy": {
+      "title": "Politique de confidentialité",
+      "description": "Comment konsenxia.com traite les données personnelles — écrit pour les lecteurs KVKK et GDPR.",
+      "heading": "Politique de confidentialité"
+    },
+    "terms": {
+      "title": "Conditions d'utilisation",
+      "description": "Règles d'utilisation de konsenxia.com, frontière « pas de conseil médical » et définitions des étiquettes de statut.",
+      "heading": "Conditions d'utilisation"
+    },
+    "cookies": {
+      "title": "Politique de cookies",
+      "description": "Cookies essentiels uniquement par défaut. Pas de cookies publicitaires, pas de suivi inter-sites, pas de vente de données.",
+      "heading": "Politique de cookies"
+    },
+    "security": {
+      "title": "Sécurité et divulgation responsable",
+      "description": "Comment nous sécurisons ce site, comment signaler une vulnérabilité, et les limites du contenu clinique.",
+      "heading": "Sécurité et divulgation responsable"
+    },
+    "licenses": {
+      "title": "Licences",
+      "description": "Ce qui est ouvert, sous quelle licence, et ce qui reste propriétaire.",
+      "heading": "Licences"
+    }
+  },
+  "faq": [
+    {
+      "q": "KONSENXIA est-il un logiciel clinique certifié ?",
+      "a": "Aucune certification n'est revendiquée sur ce site. Les affirmations sont étiquetées architecture ou feuille de route ; « conçu pour » l'anonymisation n'est pas une certification, et aucune autorisation réglementaire n'est alléguée."
+    },
+    {
+      "q": "KONSENXIA donne-t-il des conseils médicaux ?",
+      "a": "Non. Le contenu de ce site est une information produit pour évaluation professionnelle. L'assistant est une aide à la décision — le clinicien agréé prend chaque décision clinique."
+    },
+    {
+      "q": "Qu'est-ce qui est open source ici ?",
+      "a": "Le code du site est sous double licence MIT OR Apache-2.0. L'application clinique, les modèles, les prompts, les harnais d'évaluation et les jeux de données sont propriétaires et fournis sous accord commercial."
+    },
+    {
+      "q": "Comment KONSENXIA aborde-t-il les données patients ?",
+      "a": "Le pipeline d'anonymisation du produit est conçu pour séparer les signaux d'apprentissage des identifiants directs. KVKK + GDPR sont des objectifs de conception consignés dans l'architecture et les documents juridiques — pas des certificats."
+    },
+    {
+      "q": "Comment puis-je évaluer la plateforme ?",
+      "a": "Réservez une démo ou un pilote via le formulaire de contact. Nous parcourons le schéma d'architecture, la conception d'anonymisation et la documentation juridique — étiquettes de statut intactes."
+    }
+  ],
+  "notFound": {
+    "title": "Page introuvable",
+    "body": "La page que vous cherchez n'existe pas ou a été déplacée.",
+    "home": "Retour à l'accueil"
+  }
+}

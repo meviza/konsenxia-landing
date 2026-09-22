@@ -1,0 +1,66 @@
+{
+  "site": "konsenxia",
+  "page": "company",
+  "locale": "en",
+  "designLanguage": "clinical-noir-teal",
+  "header": {
+    "eyebrow": "Company",
+    "headline": "Building clinical AI that can be audited",
+    "subhead": "KONSENXIA is developed by a team that treats architecture documents, legal records, and honest status labels as part of the product."
+  },
+  "profile": {
+    "title": "Corporate profile",
+    "facts": [
+      { "key": "Product", "value": "KONSENXIA — healthcare AI for clinician collaboration and AI-assisted consultation" },
+      { "key": "Domain", "value": "konsenxia.com" },
+      { "key": "Category", "value": "Clinical AI / decision support" },
+      { "key": "Primary markets", "value": "Clinics, hospitals" },
+      { "key": "Secondary audiences", "value": "Health-tech investors, developers" },
+      { "key": "Design language", "value": "Clinical noir with teal accents" },
+      { "key": "Planned languages", "value": "TR / EN / DE (roadmap)" },
+      { "key": "Compliance posture", "value": "KVKK + GDPR design goals; HIPAA-aligned target posture — architecture, not certification" },
+      { "key": "Sources of record", "value": "repo docs/healthcare_ai_architecture.md, docs/legal/*, FAZ_C expert review themes" },
+      { "key": "Open source", "value": "Landing site dual-licensed MIT / Apache-2.0" }
+    ],
+    "body": "We build for institutions that must answer hard questions about patient data before they can adopt anything. Our architecture and legal documentation are written to be read by clinicians, IT, and compliance officers in the same meeting — with every claim labelled for what it is: designed, planned, or proven."
+  },
+  "audiences": {
+    "press": {
+      "title": "For press",
+      "bullets": [
+        "Status labels must be preserved: architecture, roadmap; no certification language without an audit behind it.",
+        "Metrics registry (/metrics) is the source for any published figure or posture statement.",
+        "No clinical performance claims are authorised beyond sourced material."
+      ]
+    },
+    "investors": {
+      "title": "For investors",
+      "bullets": [
+        "Wedge: procurement-ready data-path clarity (anonymization designed for; KVKK + GDPR design goals).",
+        "Moat: architecture and legal docs as product artifacts plus clinician-in-the-loop trust.",
+        "Business model: proprietary clinical product under agreement; open landing builds distribution trust.",
+        "Narrative with no invented numbers: /metrics → investor narrative."
+      ]
+    },
+    "developers": {
+      "title": "For developers",
+      "bullets": [
+        "Landing repo is dual-licensed MIT / Apache-2.0 — fork, adapt, ship.",
+        "Good first issues: locale (TR/EN/DE), animation, SEO, case studies.",
+        "Clinical integrations and API access are handled through contact under agreement."
+      ]
+    }
+  },
+  "contactChannels": [
+    { "id": "demo", "label": "Demo & pilot", "value": "Use the contact form — choose \"Demo / Pilot\".", "href": "/contact" },
+    { "id": "investor", "label": "Investor relations", "value": "Use the contact form — choose \"Investor\".", "href": "/contact" },
+    { "id": "press", "label": "Press & partners", "value": "Use the contact form — choose \"Press / Partner\".", "href": "/contact" },
+    { "id": "github", "label": "Engineering & community", "value": "github.com/meviza/konsenxia-landing", "href": "https://github.com/meviza/konsenxia-landing" },
+    { "id": "security", "label": "Security & responsible disclosure", "value": "Instructions on /security.", "href": "/security" },
+    { "id": "privacy", "label": "Privacy (KVKK / GDPR)", "value": "See /privacy or the contact form's privacy topic.", "href": "/privacy" }
+  ],
+  "ctaBand": {
+    "primaryCta": { "label": "Get a demo", "href": "/contact" },
+    "secondaryCta": { "label": "View on GitHub", "href": "https://github.com/meviza/konsenxia-landing" }
+  }
+}

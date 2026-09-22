@@ -1,0 +1,26 @@
+{
+  "name": "konsenxia-landing",
+  "version": "0.1.0",
+  "description": "Open-source landing site for KONSENXIA — healthcare AI platform for clinicians.",
+  "license": "MIT OR Apache-2.0",
+  "private": false,
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/meviza/konsenxia-landing.git"
+  },
+  "homepage": "https://konsenxia.com",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/build.mjs && wrangler dev",
+    "preview": "node scripts/build.mjs && wrangler dev --local",
+    "deploy": "node scripts/build.mjs && wrangler deploy",
+    "check": "node scripts/build.mjs"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "site": "konsenxia",
+  "page": "terms",
+  "locale": "en",
+  "header": {
+    "eyebrow": "Legal",
+    "headline": "Terms of use",
+    "subhead": "The rules for using konsenxia.com and the content published on it."
+  },
+  "effectiveDate": "2026-06",
+  "lastUpdated": "2026-06",
+  "sections": [
+    {
+      "id": "acceptance",
+      "title": "Acceptance",
+      "body": "By using this website you agree to these terms. Separate commercial terms govern any product engagement; those agreements take precedence over these website terms."
+    },
+    {
+      "id": "not-medical-advice",
+      "title": "Not medical advice",
+      "body": "Content on this website — including descriptions of consultation, differential diagnosis, and drug analytics modules — is product information for professional evaluation. It is not medical advice, not a diagnosis tool for public use, and not a substitute for a licensed clinician's judgement. Status labels on this site (architecture, roadmap) indicate documentation state, not clinical validation."
+    },
+    {
+      "id": "site-content",
+      "title": "Site content",
+      "body": "Text, design, and code on the landing repository are provided under the licenses stated on the Licenses page. Product names, logos, and non-open components remain the property of their owners."
+    },
+    {
+      "id": "status-labels",
+      "title": "Status labels",
+      "body": "Statements marked architecture reflect documented design (sources: docs/healthcare_ai_architecture.md, docs/legal/*). Statements marked roadmap describe intent. \"Designed for\" anonymization is not a certification. No clinical performance figure is published without methodology, source, date, and status."
+    },
+    {
+      "id": "acceptable-use",
+      "title": "Acceptable use",
+      "bullets": [
+        "No unlawful, harmful, or deceptive use of the site.",
+        "No submission of patient or identifiable case data through website forms.",
+        "No use of site content to present unverified clinical or compliance claims.",
+        "No scraping that degrades availability, and no bypassing access controls."
+      ]
+    },
+    {
+      "id": "disclaimer",
+      "title": "Disclaimer",
+      "body": "The website is provided \"as is\" without warranties of any kind, to the extent permitted by law. Content is general product information; it does not create a contractual obligation regarding product availability, regulatory clearance, or certification."
+    },
+    {
+      "id": "liability",
+      "title": "Limitation of liability",
+      "body": "To the extent permitted by law, the operator is not liable for indirect or consequential damages arising from use of the site. Nothing in these terms limits liability that cannot be limited by law."
+    },
+    {
+      "id": "links",
+      "title": "Third-party links",
+      "body": "Links to GitHub and other third-party services are provided for convenience and operate under their own terms."
+    },
+    {
+      "id": "changes",
+      "title": "Changes & contact",
+      "body": "We may update these terms; the date at the top reflects the latest revision. Questions go through the contact page."
+    }
+  ],
+  "related": [
+    { "label": "Privacy policy", "href": "/privacy" },
+    { "label": "Licenses", "href": "/licenses" },
+    { "label": "Security", "href": "/security" }
+  ]
+}

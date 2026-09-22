@@ -1,0 +1,180 @@
+{
+  "nav": {
+    "home": "首页",
+    "platform": "平台",
+    "metrics": "指标",
+    "openSource": "开源",
+    "community": "社区",
+    "company": "公司",
+    "contact": "联系",
+    "demo": "预约演示",
+    "github": "GitHub",
+    "menu": "菜单",
+    "close": "关闭",
+    "language": "语言"
+  },
+  "hero": {
+    "eyebrow": "医疗 AI · 临床协作",
+    "title": "与医生并肩工作的临床 AI，",
+    "titleAccent": "而非取而代之。",
+    "subtitle": "KONSENXIA 是面向医学咨询、鉴别诊断支持与医生间协作的助手——配备按 KVKK、GDPR 与 HIPAA 对齐处理要求设计的匿名化学习管线。架构优先，路线图诚实。",
+    "primaryCta": "预约演示",
+    "secondaryCta": "在 GitHub 查看"
+  },
+  "footer": {
+    "description": "面向临床协作、AI 辅助会诊与匿名化学习的医疗 AI——按 KVKK 与 GDPR 姿态设计。",
+    "columns": {
+      "product": "产品",
+      "company": "公司",
+      "legal": "法律",
+      "community": "社区"
+    },
+    "links": {
+      "platform": "平台",
+      "metrics": "指标登记",
+      "openSource": "开源",
+      "getDemo": "预约演示",
+      "about": "关于我们",
+      "contact": "联系",
+      "press": "媒体与投资者",
+      "privacy": "隐私政策（KVKK / GDPR）",
+      "terms": "使用条款",
+      "cookies": "Cookie 政策",
+      "security": "安全",
+      "licenses": "许可证",
+      "repository": "仓库",
+      "issues": "Issue",
+      "releases": "发布",
+      "communityPage": "社区页面"
+    },
+    "tagline": "有用就点个 Star，关注版本发布。",
+    "legalLine": "© {year} KONSENXIA。保留所有权利。架构与路线图标签反映文档状态（来源：docs/healthcare_ai_architecture.md、docs/legal/*、FAZ_C 主题；2026-06），并非认证。"
+  },
+  "form": {
+    "title": "介绍一下您的场景",
+    "name": "姓名",
+    "namePh": "您的姓名",
+    "email": "电子邮箱",
+    "emailPh": "you@clinic.com",
+    "companyLabel": "机构 / 诊所",
+    "companyPh": "机构名称",
+    "phone": "电话",
+    "phonePh": "+86 …",
+    "interest": "请求类型",
+    "select": "请选择…",
+    "optDemo": "演示 / 试用",
+    "optPilot": "临床试点",
+    "optEnterprise": "企业服务请求",
+    "optInvestor": "投资者会议",
+    "optPartner": "合作 / 伙伴",
+    "optOther": "其他",
+    "message": "留言",
+    "messagePh": "简要描述您的需求或问题…",
+    "submit": "发送",
+    "optional": "（可选）",
+    "errRequired": "请填写必填项。",
+    "errEmail": "请输入有效的电子邮箱。",
+    "errGeneric": "出了点问题，请重试。",
+    "success": "感谢！您的请求已收到，我们会尽快回复。",
+    "note": "表单数据仅用于回复您的请求。按 KVKK/GDPR 对齐保存；绝不用于向第三方做营销共享。",
+    "direct": "直接联系：",
+    "routing": "消息通过本站自有域名基础设施送达。"
+  },
+  "cta": {
+    "viewGithub": "在 GitHub 查看",
+    "getDemo": "预约演示",
+    "readMetrics": "阅读指标登记",
+    "star": "为仓库点 Star",
+    "watch": "关注发布",
+    "contact": "联系",
+    "licenses": "许可证"
+  },
+  "pages": {
+    "home": {
+      "title": "KONSENXIA — 面向临床协作的医疗 AI",
+      "description": "KONSENXIA 是面向医学咨询、鉴别诊断支持与医生间协作的临床 AI——架构优先，路线图诚实。"
+    },
+    "platform": {
+      "title": "八大模块，一个临床界面",
+      "description": "会诊、协作、学习与档案——除实验室来源另有说明外，每个模块均标注为架构或路线图状态。",
+      "heading": "八大模块，一个临床界面"
+    },
+    "metrics": {
+      "title": "定性与架构记录——没有编造的数字",
+      "description": "KONSENXIA 尚未发布实验室数据。条目均为附带来源、日期与状态的架构或路线图陈述。",
+      "heading": "定性与架构记录——没有编造的数字"
+    },
+    "community": {
+      "title": "与我们公开共建",
+      "description": "语言、无障碍、设计与文档贡献像代码一样被评审。Star、Watch、Fork、Issue、PR。",
+      "heading": "与我们公开共建"
+    },
+    "openSource": {
+      "title": "开放的站点，临床的产品",
+      "description": "站点代码双许可 MIT / Apache-2.0。临床应用、模型与数据在协议下保持专有。",
+      "heading": "开放的站点，临床的产品"
+    },
+    "company": {
+      "title": "构建可审计的临床 AI",
+      "description": "企业概况、媒体、投资者与开发者视角——状态标签诚实，指标注明来源。",
+      "heading": "构建可审计的临床 AI"
+    },
+    "contact": {
+      "title": "开启临床对话",
+      "description": "演示、试点、投资者与合作伙伴通道。回复来自具名人员，通常在两个工作日内。",
+      "heading": "开启临床对话"
+    },
+    "privacy": {
+      "title": "隐私政策",
+      "description": "konsenxia.com 如何处理个人数据——为 KVKK 与 GDPR 读者而写。",
+      "heading": "隐私政策"
+    },
+    "terms": {
+      "title": "使用条款",
+      "description": "konsenxia.com 使用规则、“非医疗建议”边界与状态标签定义。",
+      "heading": "使用条款"
+    },
+    "cookies": {
+      "title": "Cookie 政策",
+      "description": "默认仅必要 Cookie。无广告 Cookie、无跨站跟踪、不出售数据。",
+      "heading": "Cookie 政策"
+    },
+    "security": {
+      "title": "安全与负责任披露",
+      "description": "我们如何保护本站、如何报告漏洞，以及临床内容的边界。",
+      "heading": "安全与负责任披露"
+    },
+    "licenses": {
+      "title": "许可证",
+      "description": "哪些是开放的、依据什么许可证，以及哪些仍属专有。",
+      "heading": "许可证"
+    }
+  },
+  "faq": [
+    {
+      "q": "KONSENXIA 是经过认证的临床软件吗？",
+      "a": "本站不主张任何认证。陈述均标注为架构或路线图；“为……设计”的匿名化不是认证，也不主张任何监管许可。"
+    },
+    {
+      "q": "KONSENXIA 会给出医疗建议吗？",
+      "a": "不会。本站内容是供专业评估的产品信息。助手提供决策支持——每一项临床决定都由持证临床医生做出。"
+    },
+    {
+      "q": "这里什么是开源的？",
+      "a": "站点代码双许可 MIT OR Apache-2.0。临床应用、模型、提示词、评估框架与数据集为专有，通过商业协议提供。"
+    },
+    {
+      "q": "KONSENXIA 如何处理患者数据？",
+      "a": "产品的匿名化管线旨在将学习信号与直接标识符分离。KVKK + GDPR 是记录在架构与法律文档中的设计目标——不是证书。"
+    },
+    {
+      "q": "如何评估该平台？",
+      "a": "通过联系表单预约演示或试点。我们会带您走查架构图、匿名化设计与法律文档——状态标签保持原样。"
+    }
+  ],
+  "notFound": {
+    "title": "页面未找到",
+    "body": "您访问的页面不存在或已移动。",
+    "home": "返回首页"
+  }
+}

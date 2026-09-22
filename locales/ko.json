@@ -1,0 +1,180 @@
+{
+  "nav": {
+    "home": "홈",
+    "platform": "플랫폼",
+    "metrics": "지표",
+    "openSource": "오픈 소스",
+    "community": "커뮤니티",
+    "company": "회사",
+    "contact": "문의",
+    "demo": "데모 요청",
+    "github": "GitHub",
+    "menu": "메뉴",
+    "close": "닫기",
+    "language": "언어"
+  },
+  "hero": {
+    "eyebrow": "헬스케어 AI · 임상의 협업",
+    "title": "의사를 대신하지 않고,",
+    "titleAccent": "의사와 함께 일하는 임상 AI.",
+    "subtitle": "KONSENXIA는 의료 상담, 감별진단 지원, 의사 간 협업을 위한 어시스턴트입니다. KVKK, GDPR, HIPAA 정합 처리를 위해 설계된 익명화 학습 파이프라인을 갖춥니다. 아키텍처 우선, 로드맵은 정직하게.",
+    "primaryCta": "데모 요청",
+    "secondaryCta": "GitHub에서 보기"
+  },
+  "footer": {
+    "description": "임상의 협업, AI 지원 상담, 익명화 학습을 위한 헬스케어 AI — KVKK와 GDPR 포지션을 위해 설계되었습니다.",
+    "columns": {
+      "product": "제품",
+      "company": "회사",
+      "legal": "법적 고지",
+      "community": "커뮤니티"
+    },
+    "links": {
+      "platform": "플랫폼",
+      "metrics": "지표 레지스트리",
+      "openSource": "오픈 소스",
+      "getDemo": "데모 요청",
+      "about": "소개",
+      "contact": "문의",
+      "press": "언론 & 투자자",
+      "privacy": "개인정보 처리방침 (KVKK / GDPR)",
+      "terms": "이용약관",
+      "cookies": "쿠키 정책",
+      "security": "보안",
+      "licenses": "라이선스",
+      "repository": "저장소",
+      "issues": "이슈",
+      "releases": "릴리스",
+      "communityPage": "커뮤니티 페이지"
+    },
+    "tagline": "도움이 되면 스타를, 릴리스는 워치로 따라보세요.",
+    "legalLine": "© {year} KONSENXIA. All rights reserved. 아키텍처 및 로드맵 라벨은 문서 상태(출처: docs/healthcare_ai_architecture.md, docs/legal/*, FAZ_C 테마; 2026-06)를 나타내며 인증이 아닙니다."
+  },
+  "form": {
+    "title": "현황을 알려주세요",
+    "name": "이름",
+    "namePh": "이름",
+    "email": "이메일",
+    "emailPh": "you@clinic.kr",
+    "companyLabel": "기관 / 클리닉",
+    "companyPh": "기관명",
+    "phone": "전화",
+    "phonePh": "+82 …",
+    "interest": "요청 유형",
+    "select": "선택…",
+    "optDemo": "데모 / 시연",
+    "optPilot": "임상 파일럿",
+    "optEnterprise": "기업 서비스 요청",
+    "optInvestor": "투자자 미팅",
+    "optPartner": "파트너십 / 협업",
+    "optOther": "기타",
+    "message": "메시지",
+    "messagePh": "요청이나 질문을 간단히 적어주세요…",
+    "submit": "보내기",
+    "optional": "(선택)",
+    "errRequired": "필수 항목을 입력해 주세요.",
+    "errEmail": "올바른 이메일 주소를 입력해 주세요.",
+    "errGeneric": "문제가 발생했습니다. 다시 시도해 주세요.",
+    "success": "감사합니다! 요청이 접수되었습니다 — 곧 답변드리겠습니다.",
+    "note": "폼 데이터는 요청 응답을 위해서만 처리됩니다. KVKK/GDPR 정합 보관; 마케팅 목적의 제3자 공유는 없습니다.",
+    "direct": "직접:",
+    "routing": "메시지는 도메인 자체 인프라를 통해 전달됩니다."
+  },
+  "cta": {
+    "viewGithub": "GitHub에서 보기",
+    "getDemo": "데모 요청",
+    "readMetrics": "지표 레지스트리 읽기",
+    "star": "스타 주기",
+    "watch": "릴리스 워치",
+    "contact": "문의",
+    "licenses": "라이선스"
+  },
+  "pages": {
+    "home": {
+      "title": "KONSENXIA — 임상의 협업을 위한 헬스케어 AI",
+      "description": "KONSENXIA는 의료 상담, 감별진단 지원, 의사 간 협업을 위한 임상 AI입니다. 아키텍처 우선, 로드맵은 정직하게."
+    },
+    "platform": {
+      "title": "여덟 개 모듈, 하나의 임상 표면",
+      "description": "상담, 협업, 학습, 기록 — 랩 출처가 있지 않는 한 모든 모듈은 아키텍처 또는 로드맵으로 표시됩니다.",
+      "heading": "여덟 개 모듈, 하나의 임상 표면"
+    },
+    "metrics": {
+      "title": "정성·아키텍처 기록 — 지어낸 숫자 없음",
+      "description": "KONSENXIA는 아직 랩 수치를 공개하지 않습니다. 항목은 출처·날짜·상태가 붙은 아키텍처 또는 로드맵 진술입니다.",
+      "heading": "정성·아키텍처 기록 — 지어낸 숫자 없음"
+    },
+    "community": {
+      "title": "오픈으로 함께 개발하기",
+      "description": "로케일, 접근성, 디자인, 문서 기여는 코드처럼 리뷰됩니다. 스타, 워치, 포크, 이슈, PR.",
+      "heading": "오픈으로 함께 개발하기"
+    },
+    "openSource": {
+      "title": "오픈 사이트, 임상 제품",
+      "description": "랜딩 사이트는 MIT / Apache-2.0 이중 라이선스. 임상 앱·모델·데이터는 계약에 따라 비공개로 유지됩니다.",
+      "heading": "오픈 사이트, 임상 제품"
+    },
+    "company": {
+      "title": "감사 가능한 임상 AI를 만든다",
+      "description": "기업 프로필, 언론, 투자자, 개발자 관점 — 정직한 상태 라벨과 출처 있는 지표로.",
+      "heading": "감사 가능한 임상 AI를 만든다"
+    },
+    "contact": {
+      "title": "임상 대화를 시작하세요",
+      "description": "데모, 파일럿, 투자자, 파트너 트랙. 답변은 실명 담당자에게서, 보통 영업일 이틀 이내에 옵니다.",
+      "heading": "임상 대화를 시작하세요"
+    },
+    "privacy": {
+      "title": "개인정보 처리방침",
+      "description": "konsenxia.com이 개인 데이터를 다루는 방식 — KVKK와 GDPR 독자를 위해 작성되었습니다.",
+      "heading": "개인정보 처리방침"
+    },
+    "terms": {
+      "title": "이용약관",
+      "description": "konsenxia.com 이용 규칙, 의학 조언 아님의 경계, 상태 라벨 정의.",
+      "heading": "이용약관"
+    },
+    "cookies": {
+      "title": "쿠키 정책",
+      "description": "기본은 필수 쿠키만. 광고 쿠키 없음, 크로스사이트 추적 없음, 데이터 판매 없음.",
+      "heading": "쿠키 정책"
+    },
+    "security": {
+      "title": "보안과 책임 있는 공개",
+      "description": "사이트 보안 방법, 취약점 보고 방법, 임상 콘텐츠의 경계.",
+      "heading": "보안과 책임 있는 공개"
+    },
+    "licenses": {
+      "title": "라이선스",
+      "description": "무엇이 오픈인지, 어떤 라이선스인지, 무엇이 독점인지.",
+      "heading": "라이선스"
+    }
+  },
+  "faq": [
+    {
+      "q": "KONSENXIA는 인증된 임상 소프트웨어인가요?",
+      "a": "이 사이트는 어떤 인증도 주장하지 않습니다. 진술은 아키텍처 또는 로드맵으로 표시되며, \"설계됨\" 익명화는 인증이 아니고 규제 허가도 주장하지 않습니다."
+    },
+    {
+      "q": "KONSENXIA는 의학 조언을 제공하나요?",
+      "a": "아닙니다. 이 사이트의 내용은 전문가 평가를 위한 제품 정보입니다. 어시스턴트는 의사결정 지원이며, 모든 임상 판단은 면허를 가진 임상의가 내립니다."
+    },
+    {
+      "q": "여기서 오픈 소스인 것은 무엇인가요?",
+      "a": "사이트 코드는 MIT OR Apache-2.0 이중 라이선스입니다. 임상 앱, 모델, 프롬프트, 평가 하니스, 데이터셋은 독점이며 상업 계약으로 제공됩니다."
+    },
+    {
+      "q": "KONSENXIA는 환자 데이터를 어떻게 다루나요?",
+      "a": "제품의 익명화 파이프라인은 학습 신호를 직접 식별자와 분리하도록 설계되었습니다. KVKK + GDPR은 아키텍처와 법률 문서에 기록된 설계 목표이지 인증서가 아닙니다."
+    },
+    {
+      "q": "플랫폼을 어떻게 평가할 수 있나요?",
+      "a": "문의 양식으로 데모나 파일럿을 예약하세요. 아키텍처 다이어그램, 익명화 설계, 법률 문서를 상태 라벨을 유지한 채 함께 살펴봅니다."
+    }
+  ],
+  "notFound": {
+    "title": "페이지를 찾을 수 없습니다",
+    "body": "찾으시는 페이지가 없거나 이동되었습니다.",
+    "home": "홈으로 돌아가기"
+  }
+}

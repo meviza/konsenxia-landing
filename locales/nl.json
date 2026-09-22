@@ -1,0 +1,180 @@
+{
+  "nav": {
+    "home": "Home",
+    "platform": "Platform",
+    "metrics": "Metrics",
+    "openSource": "Open source",
+    "community": "Community",
+    "company": "Bedrijf",
+    "contact": "Contact",
+    "demo": "Demo aanvragen",
+    "github": "GitHub",
+    "menu": "Menu",
+    "close": "Sluiten",
+    "language": "Taal"
+  },
+  "hero": {
+    "eyebrow": "AI in de zorg · Samenwerking tussen artsen",
+    "title": "Klinische AI die mét artsen werkt,",
+    "titleAccent": "niet eromheen.",
+    "subtitle": "KONSENXIA is een assistent voor medische consultatie, ondersteuning van differentiaaldiagnose en samenwerking van arts tot arts — met een anonieme leerpijplijn ontworpen voor KVKK, GDPR en HIPAA-conforme verwerking. Eerst de architectuur, eerlijke roadmap.",
+    "primaryCta": "Demo aanvragen",
+    "secondaryCta": "Bekijk op GitHub"
+  },
+  "footer": {
+    "description": "AI in de zorg voor samenwerking tussen artsen, AI-gemedieerde consultatie en geanonimiseerd leren — ontworpen voor KVKK- en GDPR-uitgangspunten.",
+    "columns": {
+      "product": "Product",
+      "company": "Bedrijf",
+      "legal": "Juridisch",
+      "community": "Community"
+    },
+    "links": {
+      "platform": "Platform",
+      "metrics": "Metrica-register",
+      "openSource": "Open source",
+      "getDemo": "Demo aanvragen",
+      "about": "Over ons",
+      "contact": "Contact",
+      "press": "Pers & investeerders",
+      "privacy": "Privacybeleid (KVKK / GDPR)",
+      "terms": "Gebruiksvoorwaarden",
+      "cookies": "Cookiebeleid",
+      "security": "Beveiliging",
+      "licenses": "Licenties",
+      "repository": "Repository",
+      "issues": "Issues",
+      "releases": "Releases",
+      "communityPage": "Communitypagina"
+    },
+    "tagline": "Ster het repo als het helpt. Volg releases.",
+    "legalLine": "© {year} KONSENXIA. Alle rechten voorbehouden. Architectuur- en roadmapplabels weerspiegelen de documentatiestatus (bronnen: docs/healthcare_ai_architecture.md, docs/legal/*, FAZ_C-thema's; 2026-06), geen certificeringen."
+  },
+  "form": {
+    "title": "Vertel ons over jullie setting",
+    "name": "Volledige naam",
+    "namePh": "Je naam",
+    "email": "E-mail",
+    "emailPh": "jij@kliniek.nl",
+    "companyLabel": "Organisatie / kliniek",
+    "companyPh": "Naam organisatie",
+    "phone": "Telefoon",
+    "phonePh": "+31 …",
+    "interest": "Type aanvraag",
+    "select": "Kies…",
+    "optDemo": "Demo / proefrit",
+    "optPilot": "Klinische pilot",
+    "optEnterprise": "Zakelijke dienstverlening",
+    "optInvestor": "Investeerdersgesprek",
+    "optPartner": "Partnerschap / samenwerking",
+    "optOther": "Overig",
+    "message": "Bericht",
+    "messagePh": "Beschrijf kort je vraag of behoefte…",
+    "submit": "Verzenden",
+    "optional": "(optioneel)",
+    "errRequired": "Vul de verplichte velden in.",
+    "errEmail": "Voer een geldig e-mailadres in.",
+    "errGeneric": "Er is iets misgegaan. Probeer het opnieuw.",
+    "success": "Bedankt! Je aanvraag is ontvangen — we nemen spoedig contact op.",
+    "note": "Formuliergegevens worden alleen verwerkt om je aanvraag te beantwoorden. Bewaring conform KVKK/GDPR; nooit gedeeld met derden voor marketing.",
+    "direct": "Direct:",
+    "routing": "Berichten lopen via de infrastructuur van het eigen domein."
+  },
+  "cta": {
+    "viewGithub": "Bekijk op GitHub",
+    "getDemo": "Demo aanvragen",
+    "readMetrics": "Lees het metrica-register",
+    "star": "Ster het repo",
+    "watch": "Volg releases",
+    "contact": "Contact",
+    "licenses": "Licenties"
+  },
+  "pages": {
+    "home": {
+      "title": "KONSENXIA — AI in de zorg voor samenwerking tussen artsen",
+      "description": "KONSENXIA is klinische AI voor medische consultatie, differentiaaldiagnose-ondersteuning en samenwerking van arts tot arts — eerst de architectuur, eerlijke roadmap."
+    },
+    "platform": {
+      "title": "Acht modules, één klinisch vlak",
+      "description": "Consultatie, samenwerking, leren en dossiers — elke module gelabeld architectuur of roadmap, tenzij een laboratoriumbron anders zegt.",
+      "heading": "Acht modules, één klinisch vlak"
+    },
+    "metrics": {
+      "title": "Kwalitatieve en architectuurrecords — geen verzonnen cijfers",
+      "description": "KONSENXIA publiceert nog geen labcijfers. Items zijn architectuur- of roadmapuitspraken met bron, datum en status.",
+      "heading": "Kwalitatieve en architectuurrecords — geen verzonnen cijfers"
+    },
+    "community": {
+      "title": "Ontwikkel open met ons",
+      "description": "Locale's, toegankelijkheid, design en documentatie worden als code gereviewd. Star, watch, fork, issue, PR.",
+      "heading": "Ontwikkel open met ons"
+    },
+    "openSource": {
+      "title": "Open site, klinisch product",
+      "description": "Landingssite dubbel gelicentieerd MIT / Apache-2.0. Klinische app, modellen en data blijven privaat onder overeenkomst.",
+      "heading": "Open site, klinisch product"
+    },
+    "company": {
+      "title": "Auditable klinische AI bouwen",
+      "description": "Bedrijfsprofiel, pers-, investeerders- en ontwikkelaarsvisies — met eerlijke statuslabels en onderbouwde metrica.",
+      "heading": "Auditable klinische AI bouwen"
+    },
+    "contact": {
+      "title": "Start het klinische gesprek",
+      "description": "Demo-, pilot-, investeerder- en partnerroutes. Antwoorden komen van een persoon met naam, doorgaans binnen twee werkdagen.",
+      "heading": "Start het klinische gesprek"
+    },
+    "privacy": {
+      "title": "Privacybeleid",
+      "description": "Hoe konsenxia.com persoonsgegevens verwerkt — geschreven voor lezers van KVKK en GDPR.",
+      "heading": "Privacybeleid"
+    },
+    "terms": {
+      "title": "Gebruiksvoorwaarden",
+      "description": "Regels voor het gebruik van konsenxia.com, de geen-medisch-advies-grens en de definitie van statuslabels.",
+      "heading": "Gebruiksvoorwaarden"
+    },
+    "cookies": {
+      "title": "Cookiebeleid",
+      "description": "Standaard alleen essentiële cookies. Geen advertentiecookies, geen cross-site tracking, geen dataverkoop.",
+      "heading": "Cookiebeleid"
+    },
+    "security": {
+      "title": "Beveiliging & verantwoorde melding",
+      "description": "Hoe we deze site beveiligen, hoe je een kwetsbaarheid meldt, en de grenzen rond klinische inhoud.",
+      "heading": "Beveiliging & verantwoorde melding"
+    },
+    "licenses": {
+      "title": "Licenties",
+      "description": "Wat open is, onder welke licentie, en wat proprietair blijft.",
+      "heading": "Licenties"
+    }
+  },
+  "faq": [
+    {
+      "q": "Is KONSENXIA gecertificeerde klinische software?",
+      "a": "Deze site claimt geen certificering. Uitspraken zijn gelabeld architectuur of roadmap; \"ontworpen voor\" anonimisering is geen certificering en er wordt geen regulatorische goedkeuring geclaimd."
+    },
+    {
+      "q": "Geeft KONSENXIA medisch advies?",
+      "a": "Nee. Inhoud op deze site is productinformatie voor professionele beoordeling. De assistent is beslissingsondersteuning — de bevoegde arts elke klinische beslissing."
+    },
+    {
+      "q": "Wat is hier open source?",
+      "a": "De code van de landingspagina is dubbel gelicentieerd MIT OR Apache-2.0. De klinische app, modellen, prompts, evaluatieharnassen en datasets zijn proprietair en worden onder commerciële overeenkomst geleverd."
+    },
+    {
+      "q": "Hoe benadert KONSENXIA patientgegevens?",
+      "a": "De anonimiseringspijplijn van het product is ontworpen om leersignalen te scheiden van directe identificatoren. KVKK + GDPR zijn ontwerpdoelen vastgelegd in architectuur- en juridische documenten — geen certificaten."
+    },
+    {
+      "q": "Hoe kan ik het platform beoordelen?",
+      "a": "Plan een demo of pilot via het contactformulier. We lopen het architectuurdiagram, het anonimiseringsontwerp en de juridische documentatie door — statuslabels intact."
+    }
+  ],
+  "notFound": {
+    "title": "Pagina niet gevonden",
+    "body": "De pagina die je zoekt bestaat niet of is verplaatst.",
+    "home": "Terug naar home"
+  }
+}

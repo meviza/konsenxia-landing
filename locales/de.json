@@ -1,0 +1,180 @@
+{
+  "nav": {
+    "home": "Start",
+    "platform": "Plattform",
+    "metrics": "Kennzahlen",
+    "openSource": "Open Source",
+    "community": "Community",
+    "company": "Unternehmen",
+    "contact": "Kontakt",
+    "demo": "Demo anfragen",
+    "github": "GitHub",
+    "menu": "Menü",
+    "close": "Schließen",
+    "language": "Sprache"
+  },
+  "hero": {
+    "eyebrow": "KI im Gesundheitswesen · Ärztliche Zusammenarbeit",
+    "title": "Klinische KI, die mit Ärzten arbeitet,",
+    "titleAccent": "nicht um sie herum.",
+    "subtitle": "KONSENXIA ist ein Assistent für medizinische Konsultation, Differenzialdiagnose-Unterstützung und kollegiale Zusammenarbeit — mit einer anonymisierten Lernpipeline, ausgelegt auf KVKK, GDPR und HIPAA-konforme Verarbeitung. Architektur zuerst, Roadmap ehrlich.",
+    "primaryCta": "Demo anfragen",
+    "secondaryCta": "Auf GitHub ansehen"
+  },
+  "footer": {
+    "description": "KI im Gesundheitswesen für Ärztekollaboration, KI-gestützte Konsultation und anonymisiertes Lernen — konzipiert für KVKK- und GDPR-Ausrichtung.",
+    "columns": {
+      "product": "Produkt",
+      "company": "Unternehmen",
+      "legal": "Rechtliches",
+      "community": "Community"
+    },
+    "links": {
+      "platform": "Plattform",
+      "metrics": "Kennzahlenregister",
+      "openSource": "Open Source",
+      "getDemo": "Demo anfragen",
+      "about": "Über uns",
+      "contact": "Kontakt",
+      "press": "Presse & Investoren",
+      "privacy": "Datenschutzerklärung (KVKK / GDPR)",
+      "terms": "Nutzungsbedingungen",
+      "cookies": "Cookie-Richtlinie",
+      "security": "Sicherheit",
+      "licenses": "Lizenzen",
+      "repository": "Repository",
+      "issues": "Issues",
+      "releases": "Releases",
+      "communityPage": "Community-Seite"
+    },
+    "tagline": "Stern das Repo, wenn es hilft. Beobachte Releases.",
+    "legalLine": "© {year} KONSENXIA. Alle Rechte vorbehalten. Architektur- und Roadmap-Labels spiegeln den Dokumentationsstand wider (Quellen: docs/healthcare_ai_architecture.md, docs/legal/*, FAZ_C-Themen; 2026-06), keine Zertifizierungen."
+  },
+  "form": {
+    "title": "Erzählen Sie uns von Ihrem Umfeld",
+    "name": "Vollständiger Name",
+    "namePh": "Ihr Name",
+    "email": "E-Mail",
+    "emailPh": "sie@klinik.de",
+    "companyLabel": "Organisation / Klinik",
+    "companyPh": "Organisationsname",
+    "phone": "Telefon",
+    "phonePh": "+49 …",
+    "interest": "Anfrageart",
+    "select": "Auswählen…",
+    "optDemo": "Demo / Testfahrt",
+    "optPilot": "Klinischer Pilot",
+    "optEnterprise": "Unternehmensanfrage",
+    "optInvestor": "Investorenmeeting",
+    "optPartner": "Partnerschaft / Zusammenarbeit",
+    "optOther": "Sonstiges",
+    "message": "Nachricht",
+    "messagePh": "Beschreiben Sie kurz Ihr Anliegen…",
+    "submit": "Senden",
+    "optional": "(optional)",
+    "errRequired": "Bitte füllen Sie die Pflichtfelder aus.",
+    "errEmail": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
+    "errGeneric": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.",
+    "success": "Danke! Ihre Anfrage ist eingegangen — wir melden uns in Kürze.",
+    "note": "Formulardaten werden nur zur Beantwortung Ihrer Anfrage verarbeitet. KVKK/GDPR-konforme Aufbewahrung; niemals zu Marketingzwecken an Dritte weitergegeben.",
+    "direct": "Direkt:",
+    "routing": "Nachrichten laufen über die Infrastruktur der eigenen Domain."
+  },
+  "cta": {
+    "viewGithub": "Auf GitHub ansehen",
+    "getDemo": "Demo anfragen",
+    "readMetrics": "Kennzahlenregister lesen",
+    "star": "Repo sternen",
+    "watch": "Releases beobachten",
+    "contact": "Kontakt",
+    "licenses": "Lizenzen"
+  },
+  "pages": {
+    "home": {
+      "title": "KONSENXIA — KI im Gesundheitswesen für ärztliche Zusammenarbeit",
+      "description": "KONSENXIA ist klinische KI für medizinische Konsultation, Differenzialdiagnose-Unterstützung und kollegiale Zusammenarbeit — Architektur zuerst, Roadmap ehrlich."
+    },
+    "platform": {
+      "title": "Acht Module, eine klinische Oberfläche",
+      "description": "Konsultation, Zusammenarbeit, Lernen und Akten — jedes Modul als Architektur oder Roadmap gekennzeichnet, sofern keine Laborquelle etwas anderes sagt.",
+      "heading": "Acht Module, eine klinische Oberfläche"
+    },
+    "metrics": {
+      "title": "Qualitative und Architekturakten — keine erfundenen Zahlen",
+      "description": "KONSENXIA veröffentlicht noch keine Laborzahlen. Einträge sind Architektur- oder Roadmap-Aussagen mit Quelle, Datum und Status.",
+      "heading": "Qualitative und Architekturakten — keine erfundenen Zahlen"
+    },
+    "community": {
+      "title": "Entwickle offen mit uns",
+      "description": "Locales, Barrierefreiheit, Design und Dokumentation werden wie Code reviewt. Star, Watch, Fork, Issue, PR.",
+      "heading": "Entwickle offen mit uns"
+    },
+    "openSource": {
+      "title": "Offene Website, klinisches Produkt",
+      "description": "Landingseite dual-lizenziert MIT / Apache-2.0. Klinische Anwendung, Modelle und Daten bleiben unter Vereinbarung privat.",
+      "heading": "Offene Website, klinisches Produkt"
+    },
+    "company": {
+      "title": "Auditable klinische KI bauen",
+      "description": "Unternehmensprofil, Presse-, Investoren- und Entwicklersicht — mit ehrlichen Statuslabels und belegten Kennzahlen.",
+      "heading": "Auditable klinische KI bauen"
+    },
+    "contact": {
+      "title": "Das klinische Gespräch beginnen",
+      "description": "Demo-, Pilot-, Investoren- und Partner-Tracks. Antworten kommen von einer benannten Person, typischerweise innerhalb von zwei Werktagen.",
+      "heading": "Das klinische Gespräch beginnen"
+    },
+    "privacy": {
+      "title": "Datenschutzerklärung",
+      "description": "Wie konsenxia.com personenbezogene Daten verarbeitet — geschrieben für Leser nach KVKK und GDPR.",
+      "heading": "Datenschutzerklärung"
+    },
+    "terms": {
+      "title": "Nutzungsbedingungen",
+      "description": "Regeln für die Nutzung von konsenxia.com, die „keine medizinische Beratung“-Grenze und die Definition der Statuslabels.",
+      "heading": "Nutzungsbedingungen"
+    },
+    "cookies": {
+      "title": "Cookie-Richtlinie",
+      "description": "Standardmäßig nur notwendige Cookies. Keine Werbe-Cookies, kein Cross-Site-Tracking, kein Datenverkauf.",
+      "heading": "Cookie-Richtlinie"
+    },
+    "security": {
+      "title": "Sicherheit & verantwortungsvolle Offenlegung",
+      "description": "Wie wir diese Site sichern, wie Sie eine Schwachstelle melden und die Grenzen klinischer Inhalte.",
+      "heading": "Sicherheit & verantwortungsvolle Offenlegung"
+    },
+    "licenses": {
+      "title": "Lizenzen",
+      "description": "Was offen ist, unter welcher Lizenz, und was proprietär bleibt.",
+      "heading": "Lizenzen"
+    }
+  },
+  "faq": [
+    {
+      "q": "Ist KONSENXIA zertifizierte klinische Software?",
+      "a": "Diese Site behauptet keine Zertifizierung. Aussagen sind als Architektur oder Roadmap gekennzeichnet; „ausgelegt auf“ Anonymisierung ist keine Zertifizierung, und es wird keine regulatorische Zulassung behauptet."
+    },
+    {
+      "q": "Gibt KONSENXIA medizinischen Rat?",
+      "a": "Nein. Inhalte dieser Site sind Produktinformationen zur professionellen Bewertung. Der Assistent ist Entscheidungshilfe — die zugelassene Ärztin trifft jede klinische Entscheidung."
+    },
+    {
+      "q": "Was ist hier Open Source?",
+      "a": "Der Code der Landingpage ist dual-lizenziert MIT OR Apache-2.0. Klinische Anwendung, Modelle, Prompts, Evaluations-Harnesses und Datensätze sind proprietär und werden unter kommerzieller Vereinbarung bereitgestellt."
+    },
+    {
+      "q": "Wie geht KONSENXIA mit Patientendaten um?",
+      "a": "Die Anonymisierungspipeline des Produkts ist so konzipiert, dass Lernsignale von direkten Identifiern getrennt werden. KVKK + GDPR sind Designziele in Architektur- und Rechtsdokumentation — keine Zertifikate."
+    },
+    {
+      "q": "Wie kann ich die Plattform bewerten?",
+      "a": "Buchen Sie eine Demo oder einen Piloten über das Kontaktformular. Wir gehen das Architekturdiagramm, das Anonymisierungskonzept und die Rechtsdokumentation durch — Statuslabels intakt."
+    }
+  ],
+  "notFound": {
+    "title": "Seite nicht gefunden",
+    "body": "Die gesuchte Seite existiert nicht oder wurde verschoben.",
+    "home": "Zurück zur Startseite"
+  }
+}

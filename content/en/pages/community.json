@@ -1,0 +1,58 @@
+{
+  "site": "konsenxia",
+  "page": "community",
+  "locale": "en",
+  "header": {
+    "eyebrow": "Community",
+    "headline": "Develop with us in the open",
+    "subhead": "The landing site is public. Clinical content, locales, accessibility, and documentation contributions are reviewed like code."
+  },
+  "tone": "Star the repo if it helps. Watch for releases. Open an issue or ship a branch — we review.",
+  "ctas": [
+    { "id": "star", "label": "Star the repo", "body": "If the direction is relevant to your work, a star helps others find it.", "href": "https://github.com/meviza/konsenxia-landing" },
+    { "id": "watch", "label": "Watch for releases", "body": "Release notes ship with every content and design update.", "href": "https://github.com/meviza/konsenxia-landing/releases" },
+    { "id": "fork", "label": "Fork and adapt", "body": "Dual-licensed MIT / Apache-2.0. Fork it for your own landing work.", "href": "https://github.com/meviza/konsenxia-landing/fork" },
+    { "id": "issue", "label": "Open an issue", "body": "Bugs, content errors, status-label inconsistencies, and feature requests.", "href": "https://github.com/meviza/konsenxia-landing/issues" },
+    { "id": "pr", "label": "Ship a branch", "body": "Pull requests are reviewed. Include rationale and, for clinical content, sources.", "href": "https://github.com/meviza/konsenxia-landing/pulls" }
+  ],
+  "goodFirstIssues": {
+    "title": "Good first issues",
+    "note": "Themes we keep open for new contributors.",
+    "items": [
+      {
+        "id": "add-locale",
+        "title": "Add a locale",
+        "body": "The planned set is TR / EN / DE (roadmap). Help wire a new language into `_content/` and nav/footer labels."
+      },
+      {
+        "id": "improve-animation",
+        "title": "Improve animation",
+        "body": "Refine section transitions for the clinical-noir-teal design while respecting `prefers-reduced-motion`."
+      },
+      {
+        "id": "fix-seo",
+        "title": "Fix SEO",
+        "body": "Metadata, Open Graph tags, sitemap entries, and structured data for the landing pages."
+      },
+      {
+        "id": "write-case-study",
+        "title": "Write a case study",
+        "body": "Draft a clinical workflow narrative. Any number needs methodology + source + date + status; qualitative claims stay qualitative."
+      }
+    ]
+  },
+  "codeOfConduct": {
+    "title": "Code of conduct",
+    "body": "Be precise, be respectful, cite sources. Clinical claims require sources; anecdote is not evidence. Harassment, bad-faith edits, and unverified medical claims in published content are not acceptable. Reports go to the maintainers via the repository's contact channel and are handled privately.",
+    "link": { "label": "Read the code of conduct", "href": "https://github.com/meviza/konsenxia-landing/blob/main/CODE_OF_CONDUCT.md" }
+  },
+  "contributionRules": [
+    "Every number needs methodology + source + date + status (see METRICS_POLICY.md).",
+    "\"Designed for\" never becomes \"certified\" in copy; architecture stays architecture.",
+    "No patient data, no real case data, no unattributed clinical guidance in issues or PRs."
+  ],
+  "ctaBand": {
+    "primaryCta": { "label": "View on GitHub", "href": "https://github.com/meviza/konsenxia-landing" },
+    "secondaryCta": { "label": "Get a demo", "href": "/contact" }
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "nav": {
+    "home": "Home",
+    "platform": "Piattaforma",
+    "metrics": "Metriche",
+    "openSource": "Open source",
+    "community": "Comunità",
+    "company": "Azienda",
+    "contact": "Contatto",
+    "demo": "Richiedi demo",
+    "github": "GitHub",
+    "menu": "Menu",
+    "close": "Chiudi",
+    "language": "Lingua"
+  },
+  "hero": {
+    "eyebrow": "IA sanitaria · Collaborazione tra clinici",
+    "title": "IA clinica che lavora con i medici,",
+    "titleAccent": "non al loro posto.",
+    "subtitle": "KONSENXIA è un assistente per consulto medico, supporto alla diagnosi differenziale e collaborazione tra medici — con una pipeline di apprendimento anonimizzata progettata per KVKK, GDPR e gestione allineata HIPAA. Prima l'architettura, roadmap onesta.",
+    "primaryCta": "Richiedi demo",
+    "secondaryCta": "Vedi su GitHub"
+  },
+  "footer": {
+    "description": "IA sanitaria per la collaborazione tra clinici, consulto assistito da IA e apprendimento anonimizzato — progettata per la postura KVKK e GDPR.",
+    "columns": {
+      "product": "Prodotto",
+      "company": "Azienda",
+      "legal": "Note legali",
+      "community": "Comunità"
+    },
+    "links": {
+      "platform": "Piattaforma",
+      "metrics": "Registro metriche",
+      "openSource": "Open source",
+      "getDemo": "Richiedi demo",
+      "about": "Chi siamo",
+      "contact": "Contatto",
+      "press": "Stampa e investitori",
+      "privacy": "Informativa privacy (KVKK / GDPR)",
+      "terms": "Termini di utilizzo",
+      "cookies": "Informativa cookie",
+      "security": "Sicurezza",
+      "licenses": "Licenze",
+      "repository": "Repository",
+      "issues": "Issue",
+      "releases": "Release",
+      "communityPage": "Pagina community"
+    },
+    "tagline": "Metti una stella al repo se ti serve. Segui le release.",
+    "legalLine": "© {year} KONSENXIA. Tutti i diritti riservati. Le etichette di architettura e roadmap riflettono lo stato della documentazione (fonti: docs/healthcare_ai_architecture.md, docs/legal/*, temi FAZ_C; 2026-06), non certificazioni."
+  },
+  "form": {
+    "title": "Raccontaci il tuo contesto",
+    "name": "Nome completo",
+    "namePh": "Il tuo nome",
+    "email": "Email",
+    "emailPh": "tu@clinica.it",
+    "companyLabel": "Organizzazione / clinica",
+    "companyPh": "Nome dell'organizzazione",
+    "phone": "Telefono",
+    "phonePh": "+39 …",
+    "interest": "Tipo di richiesta",
+    "select": "Seleziona…",
+    "optDemo": "Demo / prova",
+    "optPilot": "Pilota clinico",
+    "optEnterprise": "Richiesta di servizio aziendale",
+    "optInvestor": "Incontro con investitori",
+    "optPartner": "Partnership / collaborazione",
+    "optOther": "Altro",
+    "message": "Messaggio",
+    "messagePh": "Descrivi brevemente la tua esigenza o domanda…",
+    "submit": "Invia",
+    "optional": "(facoltativo)",
+    "errRequired": "Compila i campi obbligatori.",
+    "errEmail": "Inserisci un indirizzo email valido.",
+    "errGeneric": "Qualcosa è andato storto. Riprova.",
+    "success": "Grazie! La tua richiesta è stata ricevuta — ti risponderemo a breve.",
+    "note": "I dati del modulo sono elaborati solo per rispondere alla tua richiesta. Conservazione allineata KVKK/GDPR; mai condivisi con terzi per marketing.",
+    "direct": "Diretto:",
+    "routing": "I messaggi passano dall'infrastruttura del dominio."
+  },
+  "cta": {
+    "viewGithub": "Vedi su GitHub",
+    "getDemo": "Richiedi demo",
+    "readMetrics": "Leggi il registro metriche",
+    "star": "Metti una stella",
+    "watch": "Segui le release",
+    "contact": "Contatto",
+    "licenses": "Licenze"
+  },
+  "pages": {
+    "home": {
+      "title": "KONSENXIA — IA sanitaria per la collaborazione tra clinici",
+      "description": "KONSENXIA è IA clinica per consulto medico, supporto alla diagnosi differenziale e collaborazione tra medici — prima l'architettura, roadmap onesta."
+    },
+    "platform": {
+      "title": "Otto moduli, una superficie clinica",
+      "description": "Consulto, collaborazione, apprendimento e fascicoli — ogni modulo etichettato architettura o roadmap a meno che una fonte di laboratorio dica altro.",
+      "heading": "Otto moduli, una superficie clinica"
+    },
+    "metrics": {
+      "title": "Record qualitativi e di architettura — nessun numero inventato",
+      "description": "KONSENXIA non pubblica ancora numeri di laboratorio. Le voci sono affermazioni di architettura o roadmap con fonte, data e stato.",
+      "heading": "Record qualitativi e di architettura — nessun numero inventato"
+    },
+    "community": {
+      "title": "Sviluppa con noi in modo aperto",
+      "description": "Lingue, accessibilità, design e documentazione vengono revisionati come codice. Star, watch, fork, issue, PR.",
+      "heading": "Sviluppa con noi in modo aperto"
+    },
+    "openSource": {
+      "title": "Sito aperto, prodotto clinico",
+      "description": "Sito con doppia licenza MIT / Apache-2.0. Applicazione clinica, modelli e dati restano privati sotto accordo.",
+      "heading": "Sito aperto, prodotto clinico"
+    },
+    "company": {
+      "title": "Costruire IA clinica auditabile",
+      "description": "Profilo aziendale, stampa, investitori e sviluppatori — con etichette di stato oneste e metriche con fonte.",
+      "heading": "Costruire IA clinica auditabile"
+    },
+    "contact": {
+      "title": "Avvia la conversazione clinica",
+      "description": "Percorsi demo, pilota, investitore e partner. Le risposte arrivano da una persona nominata, in genere entro due giorni lavorativi.",
+      "heading": "Avvia la conversazione clinica"
+    },
+    "privacy": {
+      "title": "Informativa privacy",
+      "description": "Come konsenxia.com gestisce i dati personali — scritto per lettori KVKK e GDPR.",
+      "heading": "Informativa privacy"
+    },
+    "terms": {
+      "title": "Termini di utilizzo",
+      "description": "Regole per l'uso di konsenxia.com, il confine non-consiglio-medico e le definizioni delle etichette di stato.",
+      "heading": "Termini di utilizzo"
+    },
+    "cookies": {
+      "title": "Informativa cookie",
+      "description": "Solo cookie essenziali per impostazione predefinita. Nessun cookie pubblicitario, nessun tracciamento cross-site, nessuna vendita di dati.",
+      "heading": "Informativa cookie"
+    },
+    "security": {
+      "title": "Sicurezza e divulgazione responsabile",
+      "description": "Come proteggiamo questo sito, come segnalare una vulnerabilità e i confini del contenuto clinico.",
+      "heading": "Sicurezza e divulgazione responsabile"
+    },
+    "licenses": {
+      "title": "Licenze",
+      "description": "Cosa è aperto, con quale licenza, e cosa resta proprietario.",
+      "heading": "Licenze"
+    }
+  },
+  "faq": [
+    {
+      "q": "KONSENXIA è software clinico certificato?",
+      "a": "Questo sito non rivendica alcuna certificazione. Le affermazioni sono etichettate architettura o roadmap; «progettato per» l'anonimizzazione non è una certificazione e non viene affermata alcuna autorizzazione regolatoria."
+    },
+    {
+      "q": "KONSENXIA fornisce consigli medici?",
+      "a": "No. I contenuti di questo sito sono informazioni di prodotto per valutazione professionale. L'assistente è supporto alle decisioni — ogni decisione clinica la prende il professionista abilitato."
+    },
+    {
+      "q": "Cosa è open source qui?",
+      "a": "Il codice del sito è sotto doppia licenza MIT OR Apache-2.0. Applicazione clinica, modelli, prompt, harness di valutazione e dataset sono proprietari e forniti sotto accordo commerciale."
+    },
+    {
+      "q": "Come affronta KONSENXIA i dati dei pazienti?",
+      "a": "La pipeline di anonimizzazione del prodotto è progettata per separare i segnali di apprendimento dagli identificativi diretti. KVKK + GDPR sono obiettivi di progetto registrati in architettura e documentazione legale — non certificati."
+    },
+    {
+      "q": "Come posso valutare la piattaforma?",
+      "a": "Prenota una demo o un pilota tramite il modulo di contatto. Rivediamo il diagramma di architettura, il design di anonimizzazione e la documentazione legale — etichette di stato intatte."
+    }
+  ],
+  "notFound": {
+    "title": "Pagina non trovata",
+    "body": "La pagina che cerchi non esiste o è stata spostata.",
+    "home": "Torna alla home"
+  }
+}

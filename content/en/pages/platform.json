@@ -1,0 +1,125 @@
+{
+  "site": "konsenxia",
+  "page": "platform",
+  "locale": "en",
+  "designLanguage": "clinical-noir-teal",
+  "header": {
+    "eyebrow": "Platform",
+    "headline": "Eight modules, one clinical surface",
+    "subhead": "KONSENXIA's feature set spans consultation, collaboration, learning, and records. Status for every module: architecture or roadmap unless a lab source says otherwise."
+  },
+  "architecture": {
+    "title": "How the pieces fit",
+    "note": "Source: repo docs/healthcare_ai_architecture.md; legal posture: docs/legal/*.",
+    "layers": [
+      {
+        "id": "engagement",
+        "title": "Clinical engagement layer",
+        "body": "Consultation, differential diagnosis prompts, and emergency consult entry points presented in a single clinical workspace.",
+        "status": "architecture"
+      },
+      {
+        "id": "collaboration",
+        "title": "Doctor-to-doctor layer",
+        "body": "Peer consultation channels that keep licensed clinicians in the decision path for every recommendation.",
+        "status": "architecture"
+      },
+      {
+        "id": "knowledge",
+        "title": "Knowledge & analytics layer",
+        "body": "Knowledge hub retrieval, drug analytics, and medical file understanding — retrieval-augmented and document-grounded where possible.",
+        "status": "architecture"
+      },
+      {
+        "id": "anonymization",
+        "title": "Anonymization pipeline",
+        "body": "Separates learning signals from direct identifiers before any use in anonymized learning. Designed for privacy; certification is a future milestone, not a current claim.",
+        "status": "architecture"
+      },
+      {
+        "id": "compliance",
+        "title": "Compliance & governance layer",
+        "body": "KVKK + GDPR design goals expressed in architecture and legal documentation; HIPAA-aligned handling as a target posture for qualifying deployments.",
+        "status": "architecture"
+      }
+    ]
+  },
+  "features": {
+    "title": "Feature modules",
+    "note": "Status vocabulary: architecture (designed, documented) or roadmap (planned). No lab-validated numbers exist for these modules yet.",
+    "items": [
+      {
+        "id": "ai-medical-consultation",
+        "name": "AI medical consultation",
+        "body": "Structured consultation flow where the assistant gathers context, proposes considerations, and defers the clinical decision to the physician.",
+        "status": "architecture"
+      },
+      {
+        "id": "doctor-to-doctor",
+        "name": "Doctor-to-doctor",
+        "body": "Peer-to-peer consult between licensed clinicians, with the assistant summarising context rather than replacing judgement.",
+        "status": "architecture"
+      },
+      {
+        "id": "anonymized-learning",
+        "name": "Anonymized learning",
+        "body": "Continuous improvement loop fed by de-identified signals. \"Designed for\" anonymization — not certified — until audit evidence exists.",
+        "status": "architecture"
+      },
+      {
+        "id": "differential-diagnosis",
+        "name": "Differential diagnosis",
+        "body": "Ranked differential prompts with explicit uncertainty, designed to widen — not close — the clinician's consideration set.",
+        "status": "architecture"
+      },
+      {
+        "id": "emergency-consult",
+        "name": "Emergency consult",
+        "body": "Fast-path consultation for time-critical scenarios, prioritising brevity and immediate actionability.",
+        "status": "architecture"
+      },
+      {
+        "id": "knowledge-hub",
+        "name": "Knowledge hub",
+        "body": "Curated clinical knowledge retrieval with source attribution so clinicians can verify what they are reading.",
+        "status": "roadmap"
+      },
+      {
+        "id": "drug-analytics",
+        "name": "Drug analytics",
+        "body": "Interaction, usage, and reference analytics over drug data, built to surface caveats rather than final prescriptions.",
+        "status": "roadmap"
+      },
+      {
+        "id": "medical-files",
+        "name": "Medical files",
+        "body": "Ingestion and structured understanding of medical documents within the institution's own data boundary.",
+        "status": "roadmap"
+      }
+    ]
+  },
+  "languages": {
+    "title": "Language set",
+    "value": "TR / EN / DE",
+    "status": "roadmap",
+    "methodology": "Declared planned interface language set in repository planning documentation.",
+    "source": "repo docs/healthcare_ai_architecture.md",
+    "date": "2026-06"
+  },
+  "operatingModel": {
+    "title": "Operating model",
+    "steps": [
+      { "step": 1, "title": "Clinician opens a case", "body": "Context is entered or pulled from medical files inside the institution boundary." },
+      { "step": 2, "title": "Assistant drafts support", "body": "Differential prompts, consultation notes, and knowledge references — all attributed." },
+      { "step": 3, "title": "Peer channel (optional)", "body": "Doctor-to-doctor consult for a second licensed perspective." },
+      { "step": 4, "title": "Clinician decides", "body": "The licensed professional accepts, edits, or discards. No autonomous clinical action." },
+      { "step": 5, "title": "Learning signal (anonymized)", "body": "If consent and policy allow, de-identified signal feeds the anonymized learning pipeline." }
+    ]
+  },
+  "ctaBand": {
+    "title": "Evaluate with your clinical informatics team",
+    "body": "We walk the architecture diagram, the anonymization design, and the legal documentation — status labels intact.",
+    "primaryCta": { "label": "Get a demo", "href": "/contact" },
+    "secondaryCta": { "label": "View on GitHub", "href": "https://github.com/meviza/konsenxia-landing" }
+  }
+}

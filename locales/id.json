@@ -1,0 +1,180 @@
+{
+  "nav": {
+    "home": "Beranda",
+    "platform": "Platform",
+    "metrics": "Metrik",
+    "openSource": "Open source",
+    "community": "Komunitas",
+    "company": "Perusahaan",
+    "contact": "Kontak",
+    "demo": "Minta demo",
+    "github": "GitHub",
+    "menu": "Menu",
+    "close": "Tutup",
+    "language": "Bahasa"
+  },
+  "hero": {
+    "eyebrow": "AI kesehatan · Kolaborasi klinis",
+    "title": "AI klinis yang bekerja bersama dokter,",
+    "titleAccent": "bukan menggantikan mereka.",
+    "subtitle": "KONSENXIA adalah asisten untuk konsultasi medis, dukungan diagnosis diferensial, dan kolaborasi dokter-ke-dokter — dengan pipeline pembelajaran teranonimisasi yang dirancang untuk KVKK, GDPR, dan penanganan selaras HIPAA. Arsitektur dulu, peta jalan jujur.",
+    "primaryCta": "Minta demo",
+    "secondaryCta": "Lihat di GitHub"
+  },
+  "footer": {
+    "description": "AI kesehatan untuk kolaborasi klinis, konsultasi berbantuan AI, dan pembelajaran teranonimisasi — dirancang untuk postur KVKK dan GDPR.",
+    "columns": {
+      "product": "Produk",
+      "company": "Perusahaan",
+      "legal": "Hukum",
+      "community": "Komunitas"
+    },
+    "links": {
+      "platform": "Platform",
+      "metrics": "Registrasi metrik",
+      "openSource": "Open source",
+      "getDemo": "Minta demo",
+      "about": "Tentang kami",
+      "contact": "Kontak",
+      "press": "Pers & investor",
+      "privacy": "Kebijakan privasi (KVKK / GDPR)",
+      "terms": "Ketentuan penggunaan",
+      "cookies": "Kebijakan cookie",
+      "security": "Keamanan",
+      "licenses": "Lisensi",
+      "repository": "Repositori",
+      "issues": "Issues",
+      "releases": "Rilis",
+      "communityPage": "Halaman komunitas"
+    },
+    "tagline": "Beri bintang ke repo jika membantu. Pantau rilis.",
+    "legalLine": "© {year} KONSENXIA. Hak cipta dilindungi. Label arsitektur dan peta jalan mencerminkan status dokumentasi (sumber: docs/healthcare_ai_architecture.md, docs/legal/*, tema FAZ_C; 2026-06), bukan sertifikasi."
+  },
+  "form": {
+    "title": "Ceritakan konteks Anda",
+    "name": "Nama lengkap",
+    "namePh": "Nama Anda",
+    "email": "Email",
+    "emailPh": "anda@klinik.id",
+    "companyLabel": "Organisasi / klinik",
+    "companyPh": "Nama organisasi",
+    "phone": "Telepon",
+    "phonePh": "+62 …",
+    "interest": "Jenis permintaan",
+    "select": "Pilih…",
+    "optDemo": "Demo / uji coba",
+    "optPilot": "Pilot klinis",
+    "optEnterprise": "Permintaan layanan perusahaan",
+    "optInvestor": "Pertemuan investor",
+    "optPartner": "Kemitraan / kolaborasi",
+    "optOther": "Lainnya",
+    "message": "Pesan",
+    "messagePh": "Uraikan singkat kebutuhan atau pertanyaan Anda…",
+    "submit": "Kirim",
+    "optional": "(opsional)",
+    "errRequired": "Harap isi kolom wajib.",
+    "errEmail": "Masukkan alamat email yang valid.",
+    "errGeneric": "Terjadi kesalahan. Silakan coba lagi.",
+    "success": "Terima kasih! Permintaan Anda diterima — kami akan segera membalas.",
+    "note": "Data formulir hanya diproses untuk menanggapi permintaan Anda. Penyimpanan selaras KVKK/GDPR; tidak pernah dibagikan ke pihak ketiga untuk pemasaran.",
+    "direct": "Langsung:",
+    "routing": "Pesan dikirim lewat infrastruktur domain itu sendiri."
+  },
+  "cta": {
+    "viewGithub": "Lihat di GitHub",
+    "getDemo": "Minta demo",
+    "readMetrics": "Baca registrasi metrik",
+    "star": "Beri bintang repo",
+    "watch": "Pantau rilis",
+    "contact": "Kontak",
+    "licenses": "Lisensi"
+  },
+  "pages": {
+    "home": {
+      "title": "KONSENXIA — AI kesehatan untuk kolaborasi klinis",
+      "description": "KONSENXIA adalah AI klinis untuk konsultasi medis, dukungan diagnosis diferensial, dan kolaborasi dokter-ke-dokter — arsitektur dulu, peta jalan jujur."
+    },
+    "platform": {
+      "title": "Delapan modul, satu permukaan klinis",
+      "description": "Konsultasi, kolaborasi, pembelajaran, dan rekam — setiap modul berlabel arsitektur atau peta jalan kecuali sumber laboratorium menyatakan lain.",
+      "heading": "Delapan modul, satu permukaan klinis"
+    },
+    "metrics": {
+      "title": "Rekaman kualitatif dan arsitektur — tanpa angka karangan",
+      "description": "KONSENXIA belum menerbitkan angka laboratorium. Entri adalah pernyataan arsitektur atau peta jalan dengan sumber, tanggal, dan status.",
+      "heading": "Rekaman kualitatif dan arsitektur — tanpa angka karangan"
+    },
+    "community": {
+      "title": "Berkembang bersama secara terbuka",
+      "description": "Lokalitas, aksesibilitas, desain, dan dokumentasi direview seperti kode. Star, watch, fork, issue, PR.",
+      "heading": "Berkembang bersama secara terbuka"
+    },
+    "openSource": {
+      "title": "Situs terbuka, produk klinis",
+      "description": "Situs dengan lisensi ganda MIT / Apache-2.0. Aplikasi klinis, model, dan data tetap privat di bawah perjanjian.",
+      "heading": "Situs terbuka, produk klinis"
+    },
+    "company": {
+      "title": "Membangun AI klinis yang dapat diaudit",
+      "description": "Profil perusahaan, pers, investor, dan pengembang — dengan label status jujur bersumber.",
+      "heading": "Membangun AI klinis yang dapat diaudit"
+    },
+    "contact": {
+      "title": "Mulai percakapan klinis",
+      "description": "Jalur demo, pilot, investor, dan mitra. Balasan datang dari orang bernama, biasanya dalam dua hari kerja.",
+      "heading": "Mulai percakapan klinis"
+    },
+    "privacy": {
+      "title": "Kebijakan privasi",
+      "description": "Bagaimana konsenxia.com menangani data pribadi — ditulis untuk pembaca KVKK dan GDPR.",
+      "heading": "Kebijakan privasi"
+    },
+    "terms": {
+      "title": "Ketentuan penggunaan",
+      "description": "Aturan penggunaan konsenxia.com, batasan bukan-nasihat-medis, dan definisi label status.",
+      "heading": "Ketentuan penggunaan"
+    },
+    "cookies": {
+      "title": "Kebijakan cookie",
+      "description": "Hanya cookie esensial secara bawaan. Tanpa cookie iklan, tanpa pelacakan lintas situs, tanpa penjualan data.",
+      "heading": "Kebijakan cookie"
+    },
+    "security": {
+      "title": "Keamanan & pengungkapan bertanggung jawab",
+      "description": "Cara kami mengamankan situs ini, cara melaporkan kerentanan, dan batasan konten klinis.",
+      "heading": "Keamanan & pengungkapan bertanggung jawab"
+    },
+    "licenses": {
+      "title": "Lisensi",
+      "description": "Apa yang terbuka, dengan lisensi apa, dan apa yang tetap proprietri.",
+      "heading": "Lisensi"
+    }
+  },
+  "faq": [
+    {
+      "q": "Apakah KONSENXIA perangkat lunak klinis bersertifikat?",
+      "a": "Situs ini tidak mengklaim sertifikasi apa pun. Pernyataan berlabel arsitektur atau peta jalan; \"dirancang untuk\" anonimitas bukan sertifikasi, dan tidak ada klaim izin regulator."
+    },
+    {
+      "q": "Apakah KONSENXIA memberi nasihat medis?",
+      "a": "Tidak. Konten situs ini adalah informasi produk untuk evaluasi profesional. Asisten adalah dukungan keputusan — setiap keputusan klinis diambil dokter berlisensi."
+    },
+    {
+      "q": "Apa yang open source di sini?",
+      "a": "Kode situs berlisensi ganda MIT OR Apache-2.0. Aplikasi klinis, model, prompt, harness evaluasi, dan dataset adalah proprietri dan disediakan di bawah perjanjian komersial."
+    },
+    {
+      "q": "Bagaimana KONSENXIA menangani data pasien?",
+      "a": "Pipeline anonimisasi produk dirancang untuk memisahkan sinyal pembelajaran dari pengidentifikasi langsung. KVKK + GDPR adalah tujuan desain yang tercatat dalam arsitektur dan dokumen hukum — bukan sertifikat."
+    },
+    {
+      "q": "Bagaimana saya mengevaluasi platform?",
+      "a": "Jadwalkan demo atau pilot lewat formulir kontak. Kami menelusuri diagram arsitektur, desain anonimisasi, dan dokumen hukum — label status utuh."
+    }
+  ],
+  "notFound": {
+    "title": "Halaman tidak ditemukan",
+    "body": "Halaman yang Anda cari tidak ada atau telah dipindahkan.",
+    "home": "Kembali ke beranda"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "site": "konsenxia",
+  "page": "security",
+  "locale": "en",
+  "header": {
+    "eyebrow": "Trust",
+    "headline": "Security & responsible disclosure",
+    "subhead": "How we secure this site, how to report a vulnerability, and the boundaries around clinical content."
+  },
+  "effectiveDate": "2026-06",
+  "sections": [
+    {
+      "id": "site-security",
+      "title": "Securing this site",
+      "bullets": [
+        "HTTPS enforced across all pages; modern TLS configuration.",
+        "Minimal data collection — the contact form collects only what routing requires.",
+        "Access to content and infrastructure is limited to maintainers with individual accounts and multi-factor authentication.",
+        "Dependency and content review on every pull request; releases are tagged and auditable."
+      ]
+    },
+    {
+      "id": "disclosure",
+      "title": "Vulnerability disclosure",
+      "body": "Report vulnerabilities in the landing repository or site through the GitHub Security Advisory channel (private reporting) or the security tab of the repository. Do not open a public issue for exploitable findings.",
+      "steps": [
+        "Describe the issue, affected path, and reproduction steps.",
+        "Do not include real patient data in any report — use synthetic examples.",
+        "Allow reasonable time for a fix before public discussion.",
+        "We acknowledge reports promptly and keep the reporter informed.",
+        "Credit is offered unless you prefer to remain anonymous."
+      ],
+      "link": { "label": "Report via GitHub Security", "href": "https://github.com/meviza/konsenxia-landing/security" }
+    },
+    {
+      "id": "clinical-boundaries",
+      "title": "Clinical content boundaries",
+      "bullets": [
+        "This website is not a clinical channel. Do not send patient data through forms, issues, or discussions.",
+        "Product descriptions are architecture/roadmap statements, not clinical validation.",
+        "\"Designed for\" anonymization is not a certification; no regulatory clearance is claimed on this site.",
+        "Requests that ask us to facilitate unauthorised access to health data are declined."
+      ]
+    },
+    {
+      "id": "product-security",
+      "title": "Product security (under agreement)",
+      "body": "Security architecture, data-boundary controls, deployment hardening, and support channels for the KONSENXIA product are covered in the commercial agreement and its documentation — not on this public site. Audit and certification evidence, when it exists, will be shared under NDA through the contact channel with auditor, scope, and date attached."
+    },
+    {
+      "id": "kvkk-gdpr-note",
+      "title": "Compliance note",
+      "body": "Website privacy posture is described in /privacy with KVKK and GDPR rights. Product-level compliance posture is recorded as architecture in docs/legal/* — design goals, not certificates."
+    }
+  ],
+  "related": [
+    { "label": "Terms of use", "href": "/terms" },
+    { "label": "Privacy policy", "href": "/privacy" },
+    { "label": "Licenses", "href": "/licenses" }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "site": "konsenxia",
+  "page": "home",
+  "locale": "en",
+  "designLanguage": "clinical-noir-teal",
+  "hero": {
+    "eyebrow": "Healthcare AI · Clinician collaboration",
+    "headline": "Clinical AI that works with doctors, not around them.",
+    "subhead": "KONSENXIA is an assistant for medical consultation, differential diagnosis support, and doctor-to-doctor collaboration — with an anonymized learning pipeline designed for KVKK, GDPR, and HIPAA-aligned handling. Architecture-first, roadmap-honest.",
+    "primaryCta": { "label": "Get a demo", "href": "/contact" },
+    "secondaryCta": { "label": "View on GitHub", "href": "https://github.com/meviza/konsenxia-landing" }
+  },
+  "problem": {
+    "title": "Clinical knowledge is fragmented; trust cannot be",
+    "body": [
+      "Clinicians consult across colleagues, guidelines, drug references, and records that live in different systems. The cost of that fragmentation is time — and, occasionally, continuity of care.",
+      "Introducing AI into that flow raises harder questions: where does patient data go, who can see it, and what is the model actually trained on? Institutions cannot adopt tools whose data path is opaque, and regulators increasingly will not accept \"trust us\"."
+    ],
+    "audienceNote": "Built for clinics and hospitals evaluating clinical AI, for health-tech investors reviewing the category, and for developers integrating or extending the platform."
+  },
+  "solution": {
+    "title": "Four design commitments",
+    "body": "KONSENXIA combines an AI medical consultation surface, doctor-to-doctor channels, an anonymized learning loop, and a compliance posture designed from the first diagram — not retrofitted.",
+    "pillars": [
+      {
+        "id": "clinician-collaboration",
+        "title": "Clinician collaboration",
+        "body": "Doctor-to-doctor consultation keeps a licensed human at the centre of every clinical judgement. The assistant drafts; the clinician decides."
+      },
+      {
+        "id": "ai-assistant",
+        "title": "AI assistant",
+        "body": "Consultation support, differential diagnosis prompts, emergency consult shortcuts, and knowledge-hub retrieval in one surface."
+      },
+      {
+        "id": "anonymized-learning",
+        "title": "Anonymized learning",
+        "body": "An anonymization pipeline is designed so learning signals are separated from direct identifiers. Designed for — not certified — until an audit says otherwise."
+      },
+      {
+        "id": "sovereign-compliance",
+        "title": "Compliance posture",
+        "body": "KVKK + GDPR are design goals baked into architecture and docs/legal records; HIPAA-aligned handling is a target posture for deployments that require it."
+      }
+    ]
+  },
+  "evidenceStrip": {
+    "title": "Architecture & roadmap posture",
+    "note": "Status: architecture / roadmap unless a source states otherwise. Sources: repo docs/healthcare_ai_architecture.md, docs/legal/*, FAZ_C expert review themes. Full registry: /metrics.",
+    "items": [
+      { "value": "TR / EN / DE", "label": "Planned language set", "status": "roadmap" },
+      { "value": "KVKK + GDPR", "label": "Design goals", "status": "architecture" },
+      { "value": "Designed for", "label": "Anonymity pipeline", "status": "architecture" },
+      { "value": "8 modules", "label": "Feature surface", "status": "architecture" }
+    ]
+  },
+  "trust": {
+    "title": "Why clinicians and investors take the meeting",
+    "items": [
+      {
+        "id": "clinician-first",
+        "title": "Clinician in the loop",
+        "body": "Every output is decision support. Final clinical responsibility stays with the licensed professional."
+      },
+      {
+        "id": "anonymity-design",
+        "title": "Anonymized by design",
+        "body": "The learning pipeline is architected around de-identification. We describe it as \"designed for\" — certification claims appear only when audits exist."
+      },
+      {
+        "id": "compliance-honesty",
+        "title": "KVKK + GDPR as design goals",
+        "body": "Compliance posture is recorded in docs/legal/* and architecture docs, and labelled architecture — not as a certificate we do not hold."
+      },
+      {
+        "id": "open-landing",
+        "title": "Open landing, clinical product",
+        "body": "The site's code is dual-licensed MIT / Apache-2.0. The clinical application and models stay private under agreement."
+      },
+      {
+        "id": "expert-review",
+        "title": "Expert review themes",
+        "body": "FAZ_C expert review themes feed the roadmap: safety, explainability, and auditability are tracked as work items, not slogans."
+      }
+    ]
+  },
+  "ctaBand": {
+    "title": "Walk through the architecture with us",
+    "body": "Book a demo for your clinical and IT stakeholders, or read the landing repository first.",
+    "primaryCta": { "label": "Get a demo", "href": "/contact" },
+    "secondaryCta": { "label": "View on GitHub", "href": "https://github.com/meviza/konsenxia-landing" }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "site": "konsenxia",
+  "locale": "en",
+  "designLanguage": "clinical-noir-teal",
+  "brand": {
+    "name": "KONSENXIA",
+    "tagline": "Healthcare AI for clinician collaboration",
+    "href": "/"
+  },
+  "items": [
+    { "id": "home", "label": "Home", "href": "/" },
+    { "id": "platform", "label": "Platform", "href": "/platform" },
+    { "id": "metrics", "label": "Metrics", "href": "/metrics" },
+    { "id": "open-source", "label": "Open Source", "href": "/open-source" },
+    { "id": "community", "label": "Community", "href": "/community" },
+    { "id": "company", "label": "Company", "href": "/company" },
+    { "id": "contact", "label": "Contact", "href": "/contact" }
+  ],
+  "actions": [
+    { "id": "github", "label": "GitHub", "href": "https://github.com/meviza/konsenxia-landing", "variant": "ghost" },
+    { "id": "demo", "label": "Get a demo", "href": "/contact", "variant": "primary" }
+  ],
+  "mobile": {
+    "openLabel": "Menu",
+    "closeLabel": "Close"
+  },
+  "localeSwitcher": {
+    "label": "Language",
+    "note": "Planned set: TR / EN / DE (roadmap — see /metrics)."
+  }
+}

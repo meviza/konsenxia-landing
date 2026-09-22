@@ -1,0 +1,228 @@
+{
+  "nav": {
+    "home": "Home",
+    "platform": "Platform",
+    "metrics": "Metrics",
+    "openSource": "Open Source",
+    "community": "Community",
+    "company": "Company",
+    "contact": "Contact",
+    "demo": "Get a demo",
+    "github": "GitHub",
+    "menu": "Menu",
+    "close": "Close",
+    "language": "Language"
+  },
+  "hero": {
+    "eyebrow": "Healthcare AI · Clinician collaboration",
+    "title": "Clinical AI that works with doctors,",
+    "titleAccent": "not around them.",
+    "subtitle": "KONSENXIA is an assistant for medical consultation, differential diagnosis support, and doctor-to-doctor collaboration — with an anonymized learning pipeline designed for KVKK, GDPR, and HIPAA-aligned handling. Architecture-first, roadmap-honest.",
+    "primaryCta": "Get a demo",
+    "secondaryCta": "View on GitHub"
+  },
+  "footer": {
+    "description": "Healthcare AI for clinician collaboration, AI-assisted consultation, and anonymized learning — designed for KVKK and GDPR posture.",
+    "columns": {
+      "product": "Product",
+      "company": "Company",
+      "legal": "Legal",
+      "community": "Community"
+    },
+    "links": {
+      "platform": "Platform",
+      "metrics": "Metrics registry",
+      "openSource": "Open source",
+      "getDemo": "Get a demo",
+      "about": "About",
+      "contact": "Contact",
+      "press": "Press & investors",
+      "privacy": "Privacy policy (KVKK / GDPR)",
+      "terms": "Terms of use",
+      "cookies": "Cookie policy",
+      "security": "Security",
+      "licenses": "Licenses",
+      "repository": "Repository",
+      "issues": "Issues",
+      "releases": "Releases",
+      "communityPage": "Community page"
+    },
+    "tagline": "Star the repo if it helps. Watch for releases.",
+    "legalLine": "© {year} KONSENXIA. All rights reserved. Architecture and roadmap labels reflect documentation status (sources: docs/healthcare_ai_architecture.md, docs/legal/*, FAZ_C themes; 2026-06), not certifications."
+  },
+  "form": {
+    "title": "Tell us about your setting",
+    "name": "Full name",
+    "namePh": "Your name",
+    "email": "Email",
+    "emailPh": "you@clinic.com",
+    "companyLabel": "Organisation / clinic",
+    "companyPh": "Organisation name",
+    "phone": "Phone",
+    "phonePh": "+1 555 000 0000",
+    "interest": "Request type",
+    "select": "Select…",
+    "optDemo": "Demo / test drive",
+    "optPilot": "Clinical pilot",
+    "optEnterprise": "Enterprise service request",
+    "optInvestor": "Investor meeting",
+    "optPartner": "Partnership / collaboration",
+    "optOther": "Other",
+    "message": "Message",
+    "messagePh": "Briefly describe your need or question…",
+    "submit": "Send",
+    "optional": "(optional)",
+    "errRequired": "Please fill in the required fields.",
+    "errEmail": "Please enter a valid email address.",
+    "errGeneric": "Something went wrong. Please try again.",
+    "success": "Thank you! Your request has been received — we will get back to you shortly.",
+    "note": "Form data is processed only to respond to your request. KVKK / GDPR-aligned retention; never shared with third parties for marketing.",
+    "direct": "Direct:",
+    "routing": "Messages are routed over the domain's own infrastructure."
+  },
+  "cta": {
+    "viewGithub": "View on GitHub",
+    "getDemo": "Get a demo",
+    "readMetrics": "Read the metrics registry",
+    "star": "Star the repo",
+    "watch": "Watch for releases",
+    "contact": "Contact",
+    "licenses": "Licenses"
+  },
+  "pages": {
+    "home": {
+      "title": "KONSENXIA — Healthcare AI for clinician collaboration",
+      "description": "KONSENXIA is clinical AI for medical consultation, differential diagnosis support, and doctor-to-doctor collaboration — architecture-first, roadmap-honest."
+    },
+    "platform": {
+      "title": "Eight modules, one clinical surface",
+      "description": "Consultation, collaboration, learning, and records — every module labelled architecture or roadmap unless a lab source says otherwise.",
+      "heading": "Eight modules, one clinical surface"
+    },
+    "metrics": {
+      "title": "Qualitative and architecture records — no invented numbers",
+      "description": "KONSENXIA publishes no lab numbers yet. Entries are architecture or roadmap statements with source, date, and status.",
+      "heading": "Qualitative and architecture records — no invented numbers"
+    },
+    "community": {
+      "title": "Develop with us in the open",
+      "description": "Locales, accessibility, design, and documentation contributions are reviewed like code. Star, watch, fork, issue, PR.",
+      "heading": "Develop with us in the open"
+    },
+    "openSource": {
+      "title": "Open landing, clinical product",
+      "description": "Landing site dual-licensed MIT / Apache-2.0. Clinical application, models, and data stay private under agreement.",
+      "heading": "Open landing, clinical product"
+    },
+    "company": {
+      "title": "Building clinical AI that can be audited",
+      "description": "Corporate profile, press, investor, and developer views — with honest status labels and sourced metrics.",
+      "heading": "Building clinical AI that can be audited"
+    },
+    "contact": {
+      "title": "Start the clinical conversation",
+      "description": "Demo, pilot, investor, and partner tracks. Replies come from a named human, typically within two business days.",
+      "heading": "Start the clinical conversation"
+    },
+    "privacy": {
+      "title": "Privacy policy",
+      "description": "How konsenxia.com handles personal data — written for KVKK and GDPR readers.",
+      "heading": "Privacy policy"
+    },
+    "terms": {
+      "title": "Terms of use",
+      "description": "Rules for using konsenxia.com, not-medical-advice boundary, and status-label definitions.",
+      "heading": "Terms of use"
+    },
+    "cookies": {
+      "title": "Cookie policy",
+      "description": "Essential cookies only by default. No advertising cookies, no cross-site tracking, no data sale.",
+      "heading": "Cookie policy"
+    },
+    "security": {
+      "title": "Security & responsible disclosure",
+      "description": "How we secure this site, how to report a vulnerability, and the boundaries around clinical content.",
+      "heading": "Security & responsible disclosure"
+    },
+    "licenses": {
+      "title": "Licenses",
+      "description": "What is open, under which license, and what remains proprietary.",
+      "heading": "Licenses"
+    }
+  },
+  "faq": [
+    {
+      "q": "Is KONSENXIA certified clinical software?",
+      "a": "No certification is claimed on this site. Statements are labelled architecture or roadmap; \"designed for\" anonymization is not a certification, and no regulatory clearance is asserted."
+    },
+    {
+      "q": "Does KONSENXIA provide medical advice?",
+      "a": "No. Content on this site is product information for professional evaluation. The assistant is decision support — the licensed clinician makes every clinical decision."
+    },
+    {
+      "q": "What is open source here?",
+      "a": "The landing site code is dual-licensed MIT OR Apache-2.0. The clinical application, models, prompts, evaluation harnesses, and datasets are proprietary and provided under commercial agreement."
+    },
+    {
+      "q": "How does KONSENXIA approach patient data?",
+      "a": "The product's anonymization pipeline is designed to separate learning signals from direct identifiers. KVKK + GDPR are design goals recorded in architecture and legal documentation — not certificates."
+    },
+    {
+      "q": "How can I evaluate the platform?",
+      "a": "Book a demo or pilot through the contact form. We walk the architecture diagram, the anonymization design, and the legal documentation — status labels intact."
+    }
+  ],
+  "notFound": {
+    "title": "Page not found",
+    "body": "The page you are looking for does not exist or has moved.",
+    "home": "Back to home"
+  },
+  "struct": {
+    "faqTitle": "Frequently asked questions",
+    "principles": "Principles",
+    "methodology": "Methodology",
+    "source": "Source",
+    "date": "Date",
+    "notes": "Notes",
+    "status": "Status",
+    "effective": "Effective",
+    "updated": "Last updated",
+    "colName": "Name",
+    "colCategory": "Category",
+    "colPurpose": "Purpose",
+    "colDuration": "Duration",
+    "colConsent": "Consent",
+    "colComponent": "Component",
+    "colLicense": "License",
+    "colScope": "Scope",
+    "colItem": "Item",
+    "colGrant": "Grant",
+    "colBestFor": "Best for",
+    "colConsiderations": "Considerations",
+    "colAudience": "Audience",
+    "colRecommendation": "Recommendation",
+    "colKey": "Key",
+    "colValue": "Value",
+    "problem": "Problem",
+    "wedge": "Wedge",
+    "moat": "Moat",
+    "license": "License",
+    "community": "Community",
+    "narrativeNote": "Narrative note",
+    "evidence": "Evidence & posture",
+    "trust": "Why the meeting happens",
+    "pillars": "Design commitments",
+    "architectureLayers": "Architecture layers",
+    "operatingModel": "Operating model",
+    "audiencesTitle": "Audiences",
+    "channels": "Contact channels",
+    "tracks": "Conversation tracks",
+    "expectations": "What to expect",
+    "goodFirst": "Good first issues",
+    "coc": "Code of conduct",
+    "rules": "Contribution rules",
+    "disclaimer": "Disclaimer",
+    "management": "Managing cookies",
+    "related": "Related"
+  }
+}

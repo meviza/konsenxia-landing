@@ -1,0 +1,92 @@
+{
+  "site": "konsenxia",
+  "page": "privacy",
+  "locale": "en",
+  "header": {
+    "eyebrow": "Legal",
+    "headline": "Privacy policy",
+    "subhead": "How konsenxia.com handles personal data — written for KVKK and GDPR readers."
+  },
+  "effectiveDate": "2026-06",
+  "lastUpdated": "2026-06",
+  "sections": [
+    {
+      "id": "controller",
+      "title": "Who is responsible",
+      "body": "The operator of konsenxia.com is responsible for personal data processed through this website. Contact requests are handled by the team named in the reply you receive. For privacy questions — including KVKK data-subject requests — use the contact form and select the privacy topic."
+    },
+    {
+      "id": "data-collected",
+      "title": "What we collect",
+      "bullets": [
+        "Contact form submissions: name, email, organisation, selected track, and message content.",
+        "Server logs: IP address, user agent, timestamp, and requested path, retained for security and diagnostics.",
+        "Analytics, if enabled: aggregated, cookieless-by-default usage counts. No advertising profiles are built.",
+        "Repository interactions (stars, issues, PRs) happen on GitHub under GitHub's own policies."
+      ],
+      "body": "Never submit patient data, identifiable case details, or clinical records through this website. The site is not a clinical intake channel."
+    },
+    {
+      "id": "purposes",
+      "title": "Why we process it",
+      "bullets": [
+        "To respond to demo, pilot, investor, partner, and press requests (legitimate interest / pre-contractual steps).",
+        "To operate and secure the website (legitimate interest).",
+        "To comply with legal obligations, including KVKK and GDPR where applicable.",
+        "Marketing communications only with consent, withdrawable at any time."
+      ]
+    },
+    {
+      "id": "sharing",
+      "title": "Who receives it",
+      "body": "Data is shared only with infrastructure and email providers acting on our instructions, and with authorities when legally required. We do not sell personal data."
+    },
+    {
+      "id": "retention",
+      "title": "Retention",
+      "body": "Contact submissions are kept as long as needed to handle the request and for a reasonable follow-up period, then deleted or anonymised. Server logs are kept for a short, defined window. Statutory retention overrides are respected where they apply."
+    },
+    {
+      "id": "rights",
+      "title": "Your rights",
+      "body": "Under GDPR you may request access, rectification, erasure, restriction, and portability; object to processing based on legitimate interest; and withdraw consent where processing is consent-based. Under KVKK (Law No. 6698) you hold corresponding rights to information, access, correction, deletion, and objection, and may apply to the Authority for the Protection of Personal Data. One request path handles both; state your jurisdiction in the message.",
+      "bullets": [
+        "Access, rectification, erasure, restriction, and portability (GDPR).",
+        "Information, access, correction, deletion, and objection (KVKK).",
+        "Withdrawal of consent at any time.",
+        "Complaint to your supervisory authority."
+      ]
+    },
+    {
+      "id": "anonymization-note",
+      "title": "Anonymization pipeline (product)",
+      "body": "The product's anonymization pipeline is designed to separate learning signals from direct identifiers. That design is documented in the architecture record; it is not, at this time, a certified de-identification scheme. This website's privacy policy covers website processing only."
+    },
+    {
+      "id": "transfers",
+      "title": "International transfers",
+      "body": "If data is processed outside your region, we rely on appropriate safeguards such as standard contractual clauses. Landing site infrastructure is configured to minimise transfer of contact data outside the region of origin where feasible."
+    },
+    {
+      "id": "cookies",
+      "title": "Cookies",
+      "body": "Essential cookies keep the site functional. Any non-essential measurement is disclosed on the cookie page and requires consent where the law demands it."
+    },
+    {
+      "id": "children",
+      "title": "Children",
+      "body": "This website is intended for professional audiences. It is not directed at children, and we do not knowingly collect children's data through it."
+    },
+    {
+      "id": "changes",
+      "title": "Changes",
+      "body": "Material changes are dated at the top of this page."
+    }
+  ],
+  "contactHref": "/contact",
+  "related": [
+    { "label": "Cookie policy", "href": "/cookies" },
+    { "label": "Terms of use", "href": "/terms" },
+    { "label": "Security", "href": "/security" }
+  ]
+}

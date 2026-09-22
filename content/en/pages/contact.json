@@ -1,0 +1,48 @@
+{
+  "site": "konsenxia",
+  "page": "contact",
+  "locale": "en",
+  "header": {
+    "eyebrow": "Contact",
+    "headline": "Start the clinical conversation",
+    "subhead": "Form labels are already defined in the application; this page provides the introduction around them. Choose the track that matches your intent so the right team replies."
+  },
+  "intro": "KONSENXIA conversations start with your setting: specialty mix, IT landscape, and the compliance questions you must answer before any pilot. Give us that context and we will route it to the right people.",
+  "tracks": [
+    {
+      "id": "demo",
+      "title": "Demo",
+      "body": "A walkthrough of the consultation surface, doctor-to-doctor flow, and anonymization design — with architecture and legal docs on screen."
+    },
+    {
+      "id": "pilot",
+      "title": "Pilot",
+      "body": "A scoped evaluation with your clinical informatics team: workflow fit, data boundary, and success criteria agreed before anything runs."
+    },
+    {
+      "id": "investor",
+      "title": "Investor",
+      "body": "Narrative, architecture, and the metrics registry — including what is architecture, what is roadmap, and what does not exist yet."
+    },
+    {
+      "id": "partner",
+      "title": "Partner / Press",
+      "body": "Commercial agreements, integrations, channel partnerships, and press requests."
+    }
+  ],
+  "expectations": [
+    "We reply from a named human, typically within two business days.",
+    "Clinical and compliance questions are answered with references to docs/legal/* and architecture records.",
+    "We will not describe roadmap items as shipped, or design goals as certifications."
+  ],
+  "formNote": "Form fields (name, email, organisation, track, message) are implemented in the application. Do not duplicate field definitions here.",
+  "privacyNote": "Do not include patient data or identifiable case details in the form. Contact data is handled under /privacy (KVKK / GDPR posture).",
+  "alternativeChannels": [
+    { "label": "GitHub issues (public, for the landing repo)", "href": "https://github.com/meviza/konsenxia-landing/issues" },
+    { "label": "Security disclosure", "href": "/security" }
+  ],
+  "ctaBand": {
+    "primaryCta": { "label": "View on GitHub", "href": "https://github.com/meviza/konsenxia-landing" },
+    "secondaryCta": { "label": "Read the metrics registry", "href": "/metrics" }
+  }
+}

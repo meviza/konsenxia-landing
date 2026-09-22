@@ -1,0 +1,59 @@
+{
+  "site": "konsenxia",
+  "locale": "en",
+  "designLanguage": "clinical-noir-teal",
+  "brand": {
+    "name": "KONSENXIA",
+    "description": "Healthcare AI for clinician collaboration, AI-assisted consultation, and anonymized learning — designed for KVKK and GDPR posture.",
+    "href": "/"
+  },
+  "columns": [
+    {
+      "id": "product",
+      "title": "Product",
+      "links": [
+        { "label": "Platform", "href": "/platform" },
+        { "label": "Metrics registry", "href": "/metrics" },
+        { "label": "Open source", "href": "/open-source" },
+        { "label": "Get a demo", "href": "/contact" }
+      ]
+    },
+    {
+      "id": "company",
+      "title": "Company",
+      "links": [
+        { "label": "About", "href": "/company" },
+        { "label": "Contact", "href": "/contact" },
+        { "label": "Press & investors", "href": "/company#audiences" }
+      ]
+    },
+    {
+      "id": "legal",
+      "title": "Legal",
+      "links": [
+        { "label": "Privacy policy (KVKK / GDPR)", "href": "/privacy" },
+        { "label": "Terms of use", "href": "/terms" },
+        { "label": "Cookie policy", "href": "/cookies" },
+        { "label": "Security", "href": "/security" },
+        { "label": "Licenses", "href": "/licenses" }
+      ]
+    },
+    {
+      "id": "community",
+      "title": "Community / GitHub",
+      "links": [
+        { "label": "Repository", "href": "https://github.com/meviza/konsenxia-landing" },
+        { "label": "Issues", "href": "https://github.com/meviza/konsenxia-landing/issues" },
+        { "label": "Releases", "href": "https://github.com/meviza/konsenxia-landing/releases" },
+        { "label": "Community page", "href": "/community" }
+      ]
+    }
+  ],
+  "social": [
+    { "id": "github", "label": "GitHub", "href": "https://github.com/meviza" },
+    { "id": "x", "label": "X", "href": "https://x.com/konsenxia" },
+    { "id": "linkedin", "label": "LinkedIn", "href": "https://www.linkedin.com/company/konsenxia" }
+  ],
+  "legalLine": "© {year} KONSENXIA. All rights reserved. Architecture and roadmap labels reflect documentation status (sources: docs/healthcare_ai_architecture.md, docs/legal/*, FAZ_C themes; 2026-06), not certifications.",
+  "tagline": "Star the repo if it helps. Watch for releases."
+}
