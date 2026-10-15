@@ -861,11 +861,15 @@ ${hreflang}
 <meta property="og:title" content="${attr(title)}">
 <meta property="og:description" content="${attr(desc)}">
 <meta property="og:url" content="${attr(canonical)}">
-<meta property="og:image" content="${attr(ORIGIN + '/assets/icon.svg')}">
-<meta name="twitter:card" content="summary">
+<meta property="og:image" content="${attr(ORIGIN + '/assets/og.png')}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="KONSENXIA — Clinical AI that works with doctors, not around them.">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="${attr(title)}">
 <meta name="twitter:description" content="${attr(desc)}">
-<meta name="twitter:image" content="${attr(ORIGIN + '/assets/icon.svg')}">
+<meta name="twitter:image" content="${attr(ORIGIN + '/assets/og.png')}">
+<meta name="twitter:image:alt" content="KONSENXIA — Clinical AI that works with doctors, not around them.">
 <link rel="icon" href="/assets/icon.svg" type="image/svg+xml">
 <link rel="manifest" href="/manifest.webmanifest">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -1177,6 +1181,7 @@ function main() {
   fs.mkdirSync(path.join(PUBLIC_DIR, 'assets'), { recursive: true });
   fs.copyFileSync(path.join(ASSETS_SRC, 'site.css'), path.join(PUBLIC_DIR, 'assets', 'site.css'));
   fs.copyFileSync(path.join(ASSETS_SRC, 'site.js'), path.join(PUBLIC_DIR, 'assets', 'site.js'));
+  fs.copyFileSync(path.join(ASSETS_SRC, 'og.png'), path.join(PUBLIC_DIR, 'assets', 'og.png'));
   fs.writeFileSync(path.join(PUBLIC_DIR, 'assets', 'icon.svg'), ICON_SVG);
 
   /* render pages: 19 locales × 12 pages */
